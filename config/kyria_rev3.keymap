@@ -17,14 +17,23 @@
  */
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        dijkstra-esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <20 19>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         core {
             bindings = <
-			&kp ESC    &kp Q  &kp W  &kp E   &kp R          &kp T                                                     &kp Y     &kp U  &kp I      &kp O    &kp P     &kp BSLH
-			&kp TAB    &kp A  &kp S  &kp D   &kp F          &kp G                                                     &kp H     &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-			&kp LSHFT  &kp Z  &kp X  &kp C   &kp V          &kp B      &kp DELETE  &trans  &trans         &mo 3       &kp N     &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
+			&kp TAB    &kp Q  &kp W  &kp E   &kp R          &kp T                                                     &kp Y     &kp U  &kp I      &kp O    &kp P     &kp BSLH
+			&kp LSHFT  &kp A  &kp S  &kp D   &kp F          &kp G                                                     &kp H     &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+			&kp LCTRL  &kp Z  &kp X  &kp C   &kp V          &kp B      &kp DELETE  &trans  &trans         &mo 3       &kp N     &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
 									 &trans  &kp LEFT_META  &kp SPACE  &mo 2       &trans  &kp RIGHT_ALT  &kp RETURN  &kp BSPC  &mo 1  &trans
             >;
 
@@ -33,19 +42,19 @@
 
         numbers_symbols {
             bindings = <
-			&kp GRAVE       &trans         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp KP_MULTIPLY                                            &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans       &trans
-			&trans          &kp AMPERSAND  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp SEMI                                                   &kp UNDER     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_EQUAL  &kp KP_PLUS  &trans
-			&kp LEFT_SHIFT  &kp KP_DOT     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp DOLLAR       &trans            &trans  &trans  &trans  &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans        &trans       &trans
-														 &trans        &kp LESS_THAN  &kp KP_MINUS     &kp GREATER_THAN  &trans  &trans  &trans  &trans        &trans                &trans
+			&kp GRAVE  &kp N1        &kp N2         &kp N3     &kp N4     &kp N5                                                   &kp N6        &kp N7                &kp N8                 &kp N9        &kp ASTERISK  &trans
+			&trans     &kp LEFT_GUI  &kp LALT       &kp LCTRL  &kp LSHFT  &kp QUESTION                                             &kp UNDER     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp KP_EQUAL  &kp KP_PLUS   &trans
+			&trans     &trans        &kp AMPERSAND  &kp LBKT   &kp RBKT   &kp DOLLAR     &trans            &trans  &trans  &trans  &kp KP_MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_DOT    &trans        &trans
+													&trans     &trans     &kp LESS_THAN  &kp GREATER_THAN  &trans  &trans  &trans  &trans        &trans                &trans
             >;
         };
 
         nav_media {
             bindings = <
-			&trans  &trans    &trans    &trans     &trans     &trans                                  &kp HOME    &kp PAGE_UP       &kp UP      &kp PAGE_DOWN  &kp K_VOLUME_UP    &kp C_BRIGHTNESS_INC
-			&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans                                  &kp END     &kp LEFT          &kp DOWN    &kp RIGHT      &kp K_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC
-			&trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans  &kp K_PREV  &sk K_PLAY_PAUSE  &sk K_NEXT  &sk K_MUTE     &trans             &trans
-										&trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans      &trans            &trans
+			&trans  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &trans                                  &kp HOME    &kp END           &kp PG_UP     &kp PAGE_DOWN  &kp INS  &trans
+			&trans  &kp LGUI              &kp LALT              &kp LCTRL        &kp LSHFT          &trans                                  &kp LEFT    &kp DOWN          &kp UP_ARROW  &kp RIGHT      &kp DEL  &trans
+			&trans  &trans                &trans                &trans           &trans             &trans  &trans  &trans  &trans  &trans  &kp K_PREV  &sk K_PLAY_PAUSE  &sk K_NEXT    &sk K_MUTE     &trans   &trans
+																&trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans      &trans            &trans
             >;
         };
 
