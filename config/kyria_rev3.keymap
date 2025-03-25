@@ -33,28 +33,28 @@
 
         numbers_symbols {
             bindings = <
-			&kp GRAVE       &trans         &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3     &kp KP_MULTIPLY                                   &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans       &trans
-			&trans          &kp AMPERSAND  &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6     &kp SEMI                                          &kp UNDER     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_EQUAL  &kp KP_PLUS  &trans
-			&kp LEFT_SHIFT  &kp KP_DOT     &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9     &kp DOLLAR        &trans  &trans  &trans  &trans  &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans        &trans       &trans
-														 &kp LESS_THAN  &kp KP_SUBTRACT  &kp GREATER_THAN  &trans  &trans  &trans  &trans  &trans        &trans                &trans
+			&kp GRAVE       &trans         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp KP_MULTIPLY                                            &trans        &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans       &trans
+			&trans          &kp AMPERSAND  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6   &kp SEMI                                                   &kp UNDER     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_EQUAL  &kp KP_PLUS  &trans
+			&kp LEFT_SHIFT  &kp KP_DOT     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp DOLLAR       &trans            &trans  &trans  &trans  &kp QUESTION  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans        &trans       &trans
+														 &trans        &kp LESS_THAN  &kp KP_MINUS     &kp GREATER_THAN  &trans  &trans  &trans  &trans        &trans                &trans
             >;
         };
 
-        undecided {
+        nav_media {
             bindings = <
-			&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-			&trans  &trans  &trans  &trans  &trans  &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
-			&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-									&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+			&trans  &trans    &trans    &trans     &trans     &trans                                  &kp HOME    &kp PAGE_UP       &kp UP      &kp PAGE_DOWN  &kp K_VOLUME_UP    &kp C_BRIGHTNESS_INC
+			&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans                                  &kp END     &kp LEFT          &kp DOWN    &kp RIGHT      &kp K_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC
+			&trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans  &kp K_PREV  &sk K_PLAY_PAUSE  &sk K_NEXT  &sk K_MUTE     &trans             &trans
+										&trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans      &trans            &trans
             >;
         };
 
         function_layer {
             bindings = <
-			&trans  &trans  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2                                  &trans  &trans  &trans  &trans  &trans  &trans
-			&trans  &trans  &trans      &bt BT_SEL 3  &bt BT_SEL 4  &trans                                        &trans  &trans  &trans  &trans  &trans  &trans
-			&trans  &trans  &trans      &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-										&trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+			&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                                  &trans  &trans     &trans     &trans    &trans    &trans
+			&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans                                  &trans  &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI  &trans
+			&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans    &trans
+									 &trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
