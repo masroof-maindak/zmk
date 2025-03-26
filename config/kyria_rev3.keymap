@@ -24,6 +24,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <20 19>;
         };
+
+        bumpy_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <15 19>;
+        };
     };
 
     keymap {
@@ -42,16 +47,16 @@
 
         symbols {
             bindings = <
-			&kp GRAVE  &trans        &trans    &trans     &trans         &trans                                                   &trans        &kp LBKT              &kp RBKT               &kp PLUS    &kp ASTERISK  &trans
-			&trans     &kp LEFT_GUI  &kp LALT  &kp LCTRL  &kp LSHFT      &kp QUESTION                                             &kp UNDER     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL   &trans        &trans
-			&trans     &trans        &trans    &trans     &kp AMPERSAND  &kp DOLLAR     &trans            &trans  &trans  &trans  &kp KP_MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_DOT  &trans        &trans
+			&kp GRAVE  &trans        &trans    &trans     &trans         &trans                                                   &kp ASTERISK  &kp LBKT              &kp RBKT               &trans      &trans    &trans
+			&trans     &kp LEFT_GUI  &kp LALT  &kp LCTRL  &kp LSHFT      &kp QUESTION                                             &kp UNDER     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL   &kp PLUS  &trans
+			&trans     &trans        &trans    &trans     &kp AMPERSAND  &kp DOLLAR     &trans            &trans  &trans  &trans  &kp MINUS     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_DOT  &trans    &trans
 											   &trans     &trans         &kp LESS_THAN  &kp GREATER_THAN  &trans  &trans  &trans  &trans        &trans                &trans
             >;
         };
 
         numbers {
             bindings = <
-			&trans  &trans    &trans    &trans     &trans     &trans                                      &trans         &kp N7   &kp N8  &kp N9  &trans  &trans
+			&trans  &trans    &trans    &trans     &trans     &kp AT                                      &trans         &kp N7   &kp N8  &kp N9  &trans  &trans
 			&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans                                      &trans         &kp N4   &kp N5  &kp N6  &trans  &trans
 			&trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans      &kp N0         &kp N1   &kp N2  &kp N3  &trans  &trans
 										&trans     &trans     &trans  &trans  &trans  &trans  &kp RETURN  &kp BACKSPACE  &kp DOT  &trans
