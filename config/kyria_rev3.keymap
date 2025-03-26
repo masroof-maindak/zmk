@@ -29,6 +29,11 @@
             bindings = <&kp ENTER>;
             key-positions = <16 19>;
         };
+
+        exclamation {
+            bindings = <&kp EXCL>;
+            key-positions = <21 22>;
+        };
     };
 
     keymap {
