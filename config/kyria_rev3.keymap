@@ -47,7 +47,7 @@
 
         symbols {
             bindings = <
-			&kp GRAVE  &trans        &trans    &trans     &kp QT         &trans                                                   &kp ASTERISK  &kp LBKT              &kp RBKT               &trans      &trans    &trans
+			&kp GRAVE  &trans        &trans    &trans     &kp AT         &trans                                                   &kp ASTERISK  &kp LBKT              &kp RBKT               &trans      &trans    &trans
 			&trans     &kp LEFT_GUI  &kp LALT  &kp LCTRL  &kp LSHFT      &kp QUESTION                                             &kp UNDER     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL   &kp PLUS  &trans
 			&trans     &trans        &trans    &trans     &kp AMPERSAND  &kp DOLLAR     &trans            &trans  &trans  &trans  &kp MINUS     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_DOT  &trans    &trans
 											   &trans     &trans         &kp LESS_THAN  &kp GREATER_THAN  &trans  &trans  &trans  &trans        &trans                &trans
