@@ -27,7 +27,7 @@
 
         bumpy_enter {
             bindings = <&kp ENTER>;
-            key-positions = <15 19>;
+            key-positions = <16 19>;
         };
     };
 
