@@ -20,22 +20,55 @@
     combos {
         compatible = "zmk,combos";
 
-        dijkstra-esc {
+        dijkstra_esc {
             bindings = <&kp ESCAPE>;
             key-positions = <20 19>;
+            layers = <0>;
         };
 
         bumpy_enter {
             bindings = <&kp ENTER>;
             key-positions = <16 19>;
+            layers = <0>;
         };
 
         exclamation {
-            bindings = <&kp EXCL>;
+            bindings = <&kp RIGHT_BRACKET>;
             key-positions = <21 22>;
+            layers = <0>;
+        };
+
+        rparen {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <20 21>;
+            layers = <0>;
+        };
+
+        lparen {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <15 14>;
+            layers = <0>;
+        };
+
+        rbrack {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <21 22>;
+            layers = <0>;
+        };
+
+        lbrack {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <13 14>;
+            layers = <0>;
+        };
+
+        dash {
+            bindings = <&kp MINUS>;
+            key-positions = <3 4>;
+            layers = <0>;
         };
     };
-  
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -51,8 +84,9 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
-        symbols {
+        sym {
             bindings = <
+
 			&kp GRAVE  &trans        &trans    &trans     &kp PERCENT    &kp AT                                                   &kp ASTERISK  &kp LBKT              &kp RBKT               &trans      &trans    &trans
 			&trans     &kp LEFT_GUI  &kp LALT  &kp LCTRL  &kp LSHFT      &kp QUESTION                                             &kp UNDER     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL   &kp PLUS  &trans
 			&trans     &trans        &trans    &trans     &kp AMPERSAND  &kp DOLLAR     &trans            &trans  &trans  &trans  &kp MINUS     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERIOD  &trans    &trans
@@ -60,8 +94,9 @@
             >;
         };
 
-        numbers {
+        num {
             bindings = <
+
 			&trans  &trans    &trans    &trans     &trans     &trans                                      &trans         &kp N7  &kp N8  &kp N9  &trans  &trans
 			&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans                                      &kp DOT        &kp N4  &kp N5  &kp N6  &trans  &trans
 			&trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans      &kp N0         &kp N1  &kp N2  &kp N3  &trans  &trans
@@ -69,17 +104,19 @@
             >;
         };
 
-        nav_media {
+        nav {
             bindings = <
+
 			&trans  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &trans                                  &kp HOME    &kp END           &kp PG_UP     &kp PAGE_DOWN  &kp INS  &trans
 			&trans  &kp LGUI              &kp LALT              &kp LCTRL        &kp LSHFT          &trans                                  &kp LEFT    &kp DOWN          &kp UP_ARROW  &kp RIGHT      &kp DEL  &trans
-			&trans  &trans                &trans                &trans           &trans             &trans  &trans  &trans  &trans  &trans  &kp K_PREV  &sk K_PLAY_PAUSE  &sk K_NEXT    &sk K_MUTE     &trans   &trans
+			&trans  &trans                &trans                &trans           &trans             &trans  &trans  &trans  &trans  &trans  &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT    &kp K_MUTE     &trans   &trans
 																&trans           &trans             &trans  &trans  &trans  &trans  &trans  &trans      &trans            &trans
             >;
         };
 
-        function_layer {
+        fn {
             bindings = <
+
 			&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                                  &trans  &trans     &trans     &trans    &trans    &trans
 			&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans                                  &trans  &kp RSHFT  &kp RCTRL  &kp LALT  &kp RGUI  &trans
 			&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans    &trans
@@ -90,4 +127,4 @@
         };
     };
 };
- 
+
