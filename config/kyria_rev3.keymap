@@ -65,7 +65,7 @@
             bindings = <&kp MINUS>;
             key-positions = <15 16>;
             layers = <0>;
-        }
+       };
 
 		symbolic_backspace {
             bindings = <&kp BSPC>;
