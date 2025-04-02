@@ -107,10 +107,10 @@
 
         core {
             bindings = <
-			&kp GRAVE  &kp Q            &kp W        &kp E         &kp R          &kp T                                                                                        &kp Y       &kp U         &kp I         &kp O        &kp P                &kp BSLH
-			&kp TAB    &hml LEFT_ALT A  &hml LGUI S  &hml LCTRL D  &hml LSHIFT F  &kp G                                                                                        &kp H       &hmr RSHFT J  &hmr RCTRL K  &hmr RGUI L  &hmr RIGHT_ALT SEMI  &kp SQT
-			&none      &kp Z            &kp X        &kp C         &kp V          &kp B        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &kp N       &kp M         &kp COMMA     &kp DOT      &kp FSLH             &none
-													 &trans        &kp LEFT_META  &lt 2 SPACE  &kp LC(LEFT_SHIFT)    &kp DEL               &mo 3            &key_repeat        &lt 1 BSPC  &kp RALT      &trans
+			&kp GRAVE  &kp Q            &kp W        &kp E              &kp R                &kp T                                                                                        &kp Y       &kp U                 &kp I               &kp O        &kp P                &kp BSLH
+			&kp TAB    &hml LEFT_ALT A  &hml LGUI S  &hml LEFT_SHIFT D  &hml LEFT_CONTROL F  &kp G                                                                                        &kp H       &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K  &hmr RGUI L  &hmr RIGHT_ALT SEMI  &kp SQT
+			&none      &kp Z            &kp X        &kp C              &kp V                &kp B        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &kp N       &kp M                 &kp COMMA           &kp DOT      &kp FSLH             &none
+													 &trans             &kp LEFT_META        &lt 2 SPACE  &kp LC(LEFT_SHIFT)    &kp DEL               &mo 3            &key_repeat        &lt 1 BSPC  &kp RALT              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -119,7 +119,7 @@
         sym_num {
             bindings = <
 			&kp GRAVE  &kp AT        &kp HASH  &kp DOLLAR    &kp PERCENT    &kp CARET                                                &kp DOT    &kp N7  &kp N8  &kp N9  &kp EQUAL     &trans
-			&trans     &kp LEFT_ALT  &kp LGUI  &kp LCTRL     &kp LSHFT      &kp QUESTION                                             &kp UNDER  &kp N4  &kp N5  &kp N6  &kp PLUS      &trans
+			&trans     &kp LEFT_ALT  &kp LGUI  &kp LSHFT     &kp LCTRL      &kp QUESTION                                             &kp UNDER  &kp N4  &kp N5  &kp N6  &kp PLUS      &trans
 			&trans     &trans        &trans    &kp ASTERISK  &kp AMPERSAND  &trans         &trans            &trans  &trans  &trans  &trans     &kp N1  &kp N2  &kp N3  &kp NUMBER_0  &trans
 											   &trans        &kp SPACE      &kp LESS_THAN  &kp GREATER_THAN  &trans  &trans  &trans  &trans     &trans  &trans
             >;
@@ -128,7 +128,7 @@
         nav {
             bindings = <
 			&trans  &trans        &trans        &trans     &trans     &trans                                  &kp HOME    &kp END           &kp PG_UP     &kp PAGE_DOWN  &kp INS  &trans
-			&trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL  &kp LSHFT  &trans                                  &kp LEFT    &kp DOWN          &kp UP_ARROW  &kp RIGHT      &kp DEL  &trans
+			&trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp LSHFT  &kp LCTRL  &trans                                  &kp LEFT    &kp DOWN          &kp UP_ARROW  &kp RIGHT      &kp DEL  &trans
 			&trans  &trans        &trans        &trans     &trans     &trans  &trans  &trans  &trans  &trans  &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT    &kp K_MUTE     &trans   &trans
 												&trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans      &trans            &trans
             >;
