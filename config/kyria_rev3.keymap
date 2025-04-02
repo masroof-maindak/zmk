@@ -5,7 +5,6 @@
  */
 
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 /* Uncomment this block if using RGB
@@ -56,22 +55,22 @@
             layers = <0>;
         };
 
-        dash {
-            bindings = <&kp MINUS>;
-            key-positions = <3 4>;
-            layers = <0>;
-        };
-
         exclaim {
             bindings = <&kp EXCL>;
             key-positions = <9 10>;
             layers = <0>;
         };
 
-        bspc {
-            bindings = <&kp BSPC>;
+        dash {
+            bindings = <&kp MINUS>;
             key-positions = <15 16>;
             layers = <0>;
+        }
+
+		symbolic_backspace {
+            bindings = <&kp BSPC>;
+            key-positions = <15 16>;
+            layers = <1>;
         };
     };
 
@@ -108,9 +107,9 @@
 
         core {
             bindings = <
-			&kp GRAVE  &kp Q        &kp W            &kp E         &kp R          &kp T                                                                                        &kp Y  &kp U         &kp I         &kp O            &kp P                &kp BSLH
-			&kp TAB    &hml LCMD A  &hml LEFT_ALT S  &hml LCTRL D  &hml LSHIFT F  &kp G                                                                                        &kp H  &hmr RSHFT J  &hmr RCTRL K  &hmr LEFT_ALT L  &hmr RIGHT_GUI SEMI  &kp SQT
-			&none      &kp Z        &kp X            &kp C         &kp V          &kp B        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &kp N  &kp M         &kp COMMA     &kp DOT          &kp FSLH             &none
+			&kp GRAVE  &kp Q            &kp W        &kp E         &kp R          &kp T                                                                                        &kp Y  &kp U         &kp I         &kp O        &kp P                &kp BSLH
+			&kp TAB    &hml LEFT_ALT A  &hml LGUI S  &hml LCTRL D  &hml LSHIFT F  &kp G                                                                                        &kp H  &hmr RSHFT J  &hmr RCTRL K  &hmr RGUI L  &hmr RIGHT_ALT SEMI  &kp SQT
+			&none      &kp Z            &kp X        &kp C         &kp V          &kp B        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &kp N  &kp M         &kp COMMA     &kp DOT      &kp FSLH             &none
 													 &trans        &kp LEFT_META  &lt 2 SPACE  &kp LC(LEFT_SHIFT)    &mo 3                 &kp DEL          &kp BSPC           &mo 1  &kp RALT      &trans
             >;
 
@@ -120,7 +119,7 @@
         sym_num {
             bindings = <
 			&kp GRAVE  &kp AT        &kp HASH  &kp DOLLAR    &kp PERCENT    &kp CARET                                                &kp DOT    &kp N7  &kp N8  &kp N9  &kp EQUAL     &trans
-			&trans     &kp LEFT_GUI  &kp LALT  &kp LCTRL     &kp LSHFT      &kp QUESTION                                             &kp UNDER  &kp N4  &kp N5  &kp N6  &kp PLUS      &trans
+			&trans     &kp LEFT_ALT  &kp LGUI  &kp LCTRL     &kp LSHFT      &kp QUESTION                                             &kp UNDER  &kp N4  &kp N5  &kp N6  &kp PLUS      &trans
 			&trans     &trans        &trans    &kp ASTERISK  &kp AMPERSAND  &trans         &trans            &trans  &trans  &trans  &trans     &kp N1  &kp N2  &kp N3  &kp NUMBER_0  &trans
 											   &trans        &kp SPACE      &kp LESS_THAN  &kp GREATER_THAN  &trans  &trans  &trans  &trans     &trans  &trans
             >;
@@ -128,10 +127,10 @@
 
         nav {
             bindings = <
-			&trans  &trans    &trans    &trans     &trans     &trans                                  &kp HOME    &kp END           &kp PG_UP     &kp PAGE_DOWN  &kp INS  &trans
-			&trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans                                  &kp LEFT    &kp DOWN          &kp UP_ARROW  &kp RIGHT      &kp DEL  &trans
-			&trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans  &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT    &kp K_MUTE     &trans   &trans
-										&trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans      &trans            &trans
+			&trans  &trans        &trans        &trans     &trans     &trans                                  &kp HOME    &kp END           &kp PG_UP     &kp PAGE_DOWN  &kp INS  &trans
+			&trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp LCTRL  &kp LSHFT  &trans                                  &kp LEFT    &kp DOWN          &kp UP_ARROW  &kp RIGHT      &kp DEL  &trans
+			&trans  &trans        &trans        &trans     &trans     &trans  &trans  &trans  &trans  &trans  &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT    &kp K_MUTE     &trans   &trans
+												&trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans      &trans            &trans
             >;
         };
 
