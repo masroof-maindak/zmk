@@ -15,6 +15,8 @@
 };
  */
 
+&lt { quick-tap-ms = <175>; };
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -61,6 +63,12 @@
             layers = <0>;
         };
 
+        equals_ {
+            bindings = <&kp EQUAL>;
+            key-positions = <7 8>;
+            layers = <0 1>;
+        };
+
         dash {
             bindings = <&kp MINUS>;
             key-positions = <15 16>;
@@ -73,10 +81,10 @@
             layers = <1>;
         };
 
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <9 10>;
-            layers = <0>;
+        symbolic_dash {
+            bindings = <&kp MINUS>;
+            key-positions = <20 19>;
+            layers = <1>;
         };
     };
 
@@ -106,6 +114,13 @@
             hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 30 31 40 41 42 43 44>; // List of keys on the left side of the keyboard
             hold-trigger-on-release;
         };
+
+        tab_capsW: tab_caps_word {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAB";
+            #binding-cells = <0>;
+            bindings = <&kp TAB>, <&caps_word>;
+        };
     };
 
     keymap {
@@ -113,10 +128,10 @@
 
         core {
             bindings = <
-&kp GRAVE  &kp Q            &kp W        &kp E              &kp R                &kp T                                                                                        &kp Y       &kp U                 &kp I               &kp O        &kp P                &kp BSLH
-&kp TAB    &hml LEFT_ALT A  &hml LGUI S  &hml LEFT_SHIFT D  &hml LEFT_CONTROL F  &kp G                                                                                        &kp H       &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K  &hmr RGUI L  &hmr RIGHT_ALT SEMI  &kp SQT
-&none      &kp Z            &kp X        &kp C              &kp V                &kp B        &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &kp N       &kp M                 &kp COMMA           &kp DOT      &kp FSLH             &none
-                                         &trans             &kp LEFT_META        &lt 2 SPACE  &kp LC(LEFT_SHIFT)    &kp DEL               &mo 3            &key_repeat        &lt 1 BSPC  &kp RALT              &trans
+&kp GRAVE             &kp Q            &kp W        &kp E         &kp R          &kp T                                                                       &kp Y       &kp U         &kp I         &kp O        &kp P               &kp BSLH
+&tab_capsW            &hml LEFT_ALT A  &hml LGUI S  &hml LSHFT D  &hml LCTRL F   &kp G                                                                       &kp H       &hmr RSHFT J  &hmr RCTRL K  &hmr RGUI L  &hmr LEFT_ALT SEMI  &kp SQT
+&kp C_BRIGHTNESS_DEC  &kp Z            &kp X        &kp C         &kp V          &kp B        &kp LS(C)       &kp LS(V)  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &kp N       &kp M         &kp COMMA     &kp DOT      &kp FSLH            &kp C_BRIGHTNESS_INC
+                                                    &trans        &kp LEFT_META  &lt 2 SPACE  &sk LEFT_SHIFT  &kp DEL    &mo 3            &key_repeat        &lt 1 BSPC  &kp RALT      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -124,10 +139,10 @@
 
         sym_num {
             bindings = <
-&kp GRAVE  &kp AT        &kp HASH  &kp DOLLAR    &kp PERCENT    &kp CARET                                                &kp DOT    &kp N7  &kp N8  &kp N9  &kp EQUAL     &trans
-&trans     &kp LEFT_ALT  &kp LGUI  &kp LSHFT     &kp LCTRL      &kp QUESTION                                             &kp UNDER  &kp N4  &kp N5  &kp N6  &kp PLUS      &trans
-&trans     &trans        &trans    &kp ASTERISK  &kp AMPERSAND  &trans         &trans            &trans  &trans  &trans  &trans     &kp N1  &kp N2  &kp N3  &kp NUMBER_0  &trans
-                                   &trans        &kp SPACE      &kp LESS_THAN  &kp GREATER_THAN  &trans  &trans  &trans  &trans     &trans  &trans
+&kp GRAVE  &kp AT        &kp HASH  &kp DOLLAR    &kp PERCENT    &kp CARET                                               &trans   &kp N4  &kp N5  &kp N6  &trans     &trans
+&trans     &kp LEFT_ALT  &kp LGUI  &kp LSHFT     &kp LCTRL      &kp QUESTION                                            &kp N0   &kp N1  &kp N2  &kp N3  &kp UNDER  &trans
+&trans     &trans        &trans    &kp ASTERISK  &kp AMPERSAND  &trans        &trans            &trans  &trans  &trans  &kp DOT  &kp N7  &kp N8  &kp N9  &trans     &trans
+                                   &trans        &kp LESS_THAN  &kp SPACE     &kp GREATER_THAN  &trans  &trans  &trans  &trans   &trans  &trans
             >;
         };
 
@@ -152,4 +167,3 @@
         };
     };
 };
-
