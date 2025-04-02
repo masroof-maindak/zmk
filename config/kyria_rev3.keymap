@@ -128,10 +128,10 @@
 
         core {
             bindings = <
-&kp GRAVE             &kp Q            &kp W        &kp E         &kp R          &kp T                                                                       &kp Y       &kp U         &kp I         &kp O        &kp P               &kp BSLH
-&tab_capsW            &hml LEFT_ALT A  &hml LGUI S  &hml LSHFT D  &hml LCTRL F   &kp G                                                                       &kp H       &hmr RSHFT J  &hmr RCTRL K  &hmr RGUI L  &hmr LEFT_ALT SEMI  &kp SQT
-&kp C_BRIGHTNESS_DEC  &kp Z            &kp X        &kp C         &kp V          &kp B        &kp LS(C)       &kp LS(V)  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &kp N       &kp M         &kp COMMA     &kp DOT      &kp FSLH            &kp C_BRIGHTNESS_INC
-                                                    &trans        &kp LEFT_META  &lt 2 SPACE  &sk LEFT_SHIFT  &kp DEL    &mo 3            &key_repeat        &lt 1 BSPC  &kp RALT      &trans
+&kp GRAVE             &kp Q            &kp W        &kp E         &kp R          &kp T                                                                       &kp Y       &kp U                 &kp I               &kp O        &kp P               &kp BSLH
+&tab_capsW            &hml LEFT_ALT A  &hml LGUI S  &hml LSHFT D  &hml LCTRL F   &kp G                                                                       &kp H       &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K  &hmr RGUI L  &hmr LEFT_ALT SEMI  &kp SQT
+&kp C_BRIGHTNESS_DEC  &kp Z            &kp X        &kp C         &kp V          &kp B        &kp LC(C)       &kp LC(V)  &kp K_VOLUME_UP  &kp K_VOLUME_DOWN  &kp N       &kp M                 &kp COMMA           &kp DOT      &kp FSLH            &kp C_BRIGHTNESS_INC
+                                                    &trans        &kp LEFT_META  &lt 2 SPACE  &sk LEFT_SHIFT  &kp DEL    &mo 3            &key_repeat        &lt 1 BSPC  &kp RALT              &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -167,3 +167,4 @@
         };
     };
 };
+
