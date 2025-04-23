@@ -1,4 +1,13 @@
-on: [push, pull_request, workflow_dispatch]
+name: Build firmware
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    paths:
+      - "config/*.keymap"
+      - "config/*.conf"
+      - "config/*.dtsi"
+      # - 'boards/*/*/*.keymap'
 
 jobs:
   build:
