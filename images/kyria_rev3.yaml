@@ -1,0 +1,240 @@
+layout: {zmk_keyboard: kyria_rev3}
+layers:
+  core:
+  - '`'
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - '&tab_capsW'
+  - {t: A, h: LEFT ALT}
+  - {t: S, h: LGUI}
+  - {t: D, h: LSHFT}
+  - {t: F, h: LCTRL}
+  - G
+  - H
+  - {t: J, h: RIGHT CONTROL}
+  - {t: K, h: RIGHT SHIFT}
+  - {t: L, h: RGUI}
+  - {t: ;, h: LEFT ALT}
+  - ''''
+  - BRIGHTNESS DEC
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - Ctl+C
+  - Ctl+V
+  - VOLUME UP
+  - VOLUME DOWN
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - BRIGHTNESS INC
+  - {t: ▽, type: trans}
+  - LEFT META
+  - {t: SPACE, h: nav}
+  - {t: LEFT SHIFT, h: sticky}
+  - DEL
+  - fn
+  - '&key_repeat'
+  - {t: BSPC, h: sym_num}
+  - RALT
+  - {t: ▽, type: trans}
+  sym_num:
+  - '`'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT ALT
+  - LGUI
+  - LSHFT
+  - LCTRL
+  - '?'
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - _
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '*'
+  - '&'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - .
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - <
+  - SPACE
+  - '>'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  nav:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - HOME
+  - END
+  - PG UP
+  - PAGE DOWN
+  - INS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT ALT
+  - LEFT GUI
+  - LSHFT
+  - LCTRL
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP ARROW
+  - RIGHT
+  - DEL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PREV
+  - PLAY PAUSE
+  - NEXT
+  - MUTE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  fn:
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F5
+  - F6
+  - F7
+  - F8
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RIGHT CONTROL
+  - LSHFT
+  - LEFT GUI
+  - LEFT ALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [20, 19]
+  k: ESCAPE
+  l: [core]
+- p: [16, 19]
+  k: ENTER
+  l: [core]
+- p: [20, 21]
+  k: )
+  l: [core]
+- p: [15, 14]
+  k: (
+  l: [core]
+- p: [21, 22]
+  k: ']'
+  l: [core]
+- p: [13, 14]
+  k: '['
+  l: [core]
+- p: [9, 10]
+  k: '!'
+  l: [core]
+- p: [7, 8]
+  k: '='
+  l: [core, sym_num]
+- p: [15, 16]
+  k: '-'
+  l: [core]
+- p: [15, 16]
+  k: BSPC
+  l: [sym_num]
+- p: [20, 19]
+  k: '-'
+  l: [sym_num]
