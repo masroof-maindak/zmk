@@ -86,6 +86,26 @@
             key-positions = <20 19>;
             layers = <1>;
         };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <4 3>;
+        };
+
+        at_the_rate {
+            bindings = <&kp AT>;
+            key-positions = <1 2>;
+        };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <28 27>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <35 36>;
+        };
     };
 
     behaviors {
