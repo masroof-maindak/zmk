@@ -240,9 +240,13 @@ combos:
   l: [sym_num]
 - p: [4, 3]
   k: _
+  l: [core]
 - p: [1, 2]
   k: '@'
+  l: [core]
 - p: [28, 27]
   k: '*'
+  l: [core]
 - p: [35, 36]
   k: ':'
+  l: [core]
