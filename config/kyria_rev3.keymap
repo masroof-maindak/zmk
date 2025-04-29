@@ -22,119 +22,119 @@
         compatible = "zmk,combos";
 
         dijkstra_esc {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp ESCAPE>;
             key-positions = <20 19>;
             layers = <0>;
         };
 
         bumpy_enter {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp ENTER>;
             key-positions = <16 19>;
             layers = <0>;
         };
 
         rparen {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <20 21>;
             layers = <0>;
         };
 
         lparen {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <15 14>;
             layers = <0>;
         };
 
         lbrack {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <27 26>;
             layers = <0>;
         };
 
         rbrack {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <37 36>;
             layers = <0>;
         };
 
         lbrace {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp LEFT_BRACE>;
             key-positions = <2 3>;
             layers = <0>;
         };
 
         rbrace {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <8 9>;
             layers = <0>;
         };
 
         exclaim {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp EXCL>;
             key-positions = <9 10>;
             layers = <0>;
         };
 
         equals_ {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp EQUAL>;
             key-positions = <7 8>;
             layers = <0 1>;
         };
 
         dash {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp MINUS>;
             key-positions = <15 16>;
             layers = <0>;
         };
 
         symbolic_backspace {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp BSPC>;
             key-positions = <15 16>;
             layers = <1>;
         };
 
         symbolic_dash {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp MINUS>;
             key-positions = <20 19>;
             layers = <1>;
         };
 
         underscore {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp UNDERSCORE>;
             key-positions = <4 3>;
             layers = <0>;
         };
 
         at_the_rate {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp AT>;
             key-positions = <1 2>;
             layers = <0>;
         };
 
         asterisk {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp ASTERISK>;
             key-positions = <28 27>;
             layers = <0>;
         };
 
         colon {
-			timeout_ms = 24;
+			timeout-ms = 24;
             bindings = <&kp COLON>;
             key-positions = <35 36>;
             layers = <0>;
