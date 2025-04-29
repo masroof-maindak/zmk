@@ -45,15 +45,27 @@
             layers = <0>;
         };
 
-        rbrack {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <21 22>;
+        lbrack {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <27 26>;
             layers = <0>;
         };
 
-        lbrack {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <13 14>;
+        rbrack {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <37 36>;
+            layers = <0>;
+        };
+
+        lbrace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <2 3>;
+            layers = <0>;
+        };
+
+        rbrace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <8 9>;
             layers = <0>;
         };
 
