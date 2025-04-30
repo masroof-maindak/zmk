@@ -256,3 +256,6 @@ combos:
 - p: [35, 36]
   k: ':'
   l: [core]
+- p: [16, 47]
+  k: Ctl+W
+  l: [core]
