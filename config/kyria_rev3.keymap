@@ -141,6 +141,13 @@
             key-positions = <35 36>;
             layers = <0>;
         };
+
+        vim_delete_word {
+            bindings = <&kp LC(W)>;
+            key-positions = <16 47>;
+            timeout-ms = <COMBO_TIMEOUT>;
+            layers = <0>;
+        };
     };
 
     behaviors {
