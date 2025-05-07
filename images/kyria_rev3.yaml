@@ -208,7 +208,7 @@ combos:
 - p: [20, 19]
   k: ESCAPE
   l: [core]
-- p: [16, 19]
+- p: [19, 21]
   k: ENTER
   l: [core]
 - p: [20, 21]
@@ -255,7 +255,4 @@ combos:
   l: [core]
 - p: [35, 36]
   k: ':'
-  l: [core]
-- p: [16, 47]
-  k: Ctl+W
   l: [core]
