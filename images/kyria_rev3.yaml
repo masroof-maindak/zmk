@@ -49,7 +49,7 @@ layers:
   - fn
   - '&key_repeat'
   - {t: BSPC, h: sym_num}
-  - RALT
+  - Ctl+BACKSPACE
   - {t: ▽, type: trans}
   sym_num:
   - '`'
