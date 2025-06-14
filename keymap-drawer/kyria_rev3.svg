@@ -212,6 +212,7 @@ text.label { font-size: 32px; }
 text.combo { font-size: 18px; }
 text.shifted, text.hold { font-size: 16px; }
 text.layer-indicator { font-size: 14px; }
+text.footer { font-size: 14px; text-weight: 400; }
 path.combo { stroke-width: 2px; } </style>
 <g transform="translate(30, 0)" class="layer-Core">
 <text x="0" y="28" class="label" id="Core">Core</text>
