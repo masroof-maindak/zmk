@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - \
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-caps$$'}
   - {t: A, h: Alt}
   - {t: S, h: Gui}
   - {t: D, h: Shift}
@@ -47,9 +47,9 @@ layers:
   - {t: Shift, h: sticky}
   - $$mdi:backspace-reverse-outline$$
   - Function
-  - {t: '$$mdi:backspace$$', h: Sym_Num}
-  - $$mdi:repeat-once&&
-  - {t: '$$mdi:backspace-outline$$', type: backspace}
+  - {t: '$$mdi:backspace-outline$$', h: Sym_Num}
+  - $$mdi:repeat$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: ▽, type: trans}
   Sym_Num:
   - '`'
@@ -206,13 +206,13 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [20, 19]
-  k: Esc
+  k: $$mdi:keyboard-esc$$
   l: [Core]
 - p: [19, 21]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Core]
   a: top
-  o: 0.25
+  o: 0.24
 - p: [20, 21]
   k: )
   l: [Core]
@@ -241,7 +241,7 @@ combos:
   k: '-'
   l: [Core]
 - p: [15, 16]
-  k: {t: '$$mdi:backspace$$', type: backspace}
+  k: {t: '$$mdi:backspace-outline$$', type: backspace}
   l: [Sym_Num]
 - p: [20, 19]
   k: '-'
