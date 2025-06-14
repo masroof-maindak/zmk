@@ -43,15 +43,15 @@ layers:
   - BRI UP
   - {t: ▽, type: trans}
   - Gui
-  - {t: '$$mdi:keyboard-space$$', h: Navigation}
+  - {t: '$$mdi:keyboard-space$$', h: Nav}
   - {t: Shift, h: sticky}
   - $$mdi:backspace-reverse-outline$$
-  - Function
-  - {t: '$$mdi:backspace-outline$$', h: Sym_Num}
+  - Fn
+  - {t: '$$mdi:backspace-outline$$', h: Num}
   - $$mdi:repeat$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: ▽, type: trans}
-  Sym_Num:
+  Num:
   - '`'
   - '@'
   - '#'
@@ -102,7 +102,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Navigation:
+  Nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -153,7 +153,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Function:
+  Fn:
   - {t: ▽, type: trans}
   - F1
   - F2
@@ -236,16 +236,16 @@ combos:
   l: [Core]
 - p: [7, 8]
   k: '='
-  l: [Core, Sym_Num]
+  l: [Core, Num]
 - p: [15, 16]
   k: '-'
   l: [Core]
 - p: [15, 16]
   k: {t: '$$mdi:backspace-outline$$', type: backspace}
-  l: [Sym_Num]
+  l: [Num]
 - p: [20, 19]
   k: '-'
-  l: [Sym_Num]
+  l: [Num]
 - p: [4, 3]
   k: _
   l: [Core]
