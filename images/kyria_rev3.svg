@@ -135,8 +135,8 @@ text.trans { fill: #7e8184; }
 path.combo { stroke: #7f7f7f; }
 
 }</style>
-<g transform="translate(30, 0)" class="layer-core">
-<text x="0" y="28" class="label" id="core">core:</text>
+<g transform="translate(30, 0)" class="layer-Core">
+<text x="0" y="28" class="label" id="Core">Core</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 75)" class="key keypos-0">
 <rect rx="0" ry="0" x="-28" y="-28" width="56" height="56" class="key side"/>
@@ -368,8 +368,8 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="0" ry="0" x="-28" y="-28" width="56" height="56" class="key side"/>
 <rect rx="4" ry="4" x="-22" y="-24" width="44" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">SPACE</text>
-<a href="#nav">
-<text x="0" y="26" class="key hold layer-activator">nav</text>
+<a href="#Navigation">
+<text x="0" y="26" class="key hold layer-activator"><tspan style="font-size: 70%">Navigation</tspan></text>
 </a></g>
 <g transform="translate(365, 259) rotate(30.0)" class="key keypos-43">
 <rect rx="0" ry="0" x="-28" y="-28" width="56" height="56" class="key side"/>
@@ -385,15 +385,15 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(603, 298) rotate(-45.0)" class="key keypos-45">
 <rect rx="0" ry="0" x="-28" y="-28" width="56" height="56" class="key side"/>
 <rect rx="4" ry="4" x="-22" y="-24" width="44" height="40" class="key"/>
-<a href="#fn">
-<text x="0" y="-4" class="key tap layer-activator">fn</text>
+<a href="#Function">
+<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 88%">Function</tspan></text>
 </a></g>
 <g transform="translate(655, 259) rotate(-30.0)" class="key keypos-46">
 <rect rx="0" ry="0" x="-28" y="-28" width="56" height="56" class="key side"/>
 <rect rx="4" ry="4" x="-22" y="-24" width="44" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">BSPC</text>
-<a href="#sym_num">
-<text x="0" y="26" class="key hold layer-activator">sym_num</text>
+<a href="#Symbols_and_Numbers">
+<text x="0" y="26" class="key hold layer-activator"><tspan style="font-size: 64%">Symbols_an…</tspan></text>
 </a></g>
 <g transform="translate(715, 234) rotate(-15.0)" class="key keypos-47">
 <rect rx="0" ry="0" x="-28" y="-28" width="56" height="56" class="key side"/>
@@ -476,8 +476,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 397)" class="layer-sym_num">
-<text x="0" y="28" class="label" id="sym_num">sym_num:</text>
+<g transform="translate(30, 397)" class="layer-Symbols_and_Numbers">
+<text x="0" y="28" class="label" id="Symbols_and_Numbers">Symbols_and_Numbers</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 75)" class="key keypos-0">
 <rect rx="0" ry="0" x="-28" y="-28" width="56" height="56" class="key side"/>
@@ -742,8 +742,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 794)" class="layer-nav">
-<text x="0" y="28" class="label" id="nav">nav:</text>
+<g transform="translate(30, 794)" class="layer-Navigation">
+<text x="0" y="28" class="label" id="Navigation">Navigation</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 75)" class="key trans keypos-0">
 <rect rx="0" ry="0" x="-28" y="-28" width="56" height="56" class="key trans side"/>
@@ -1000,8 +1000,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 1190)" class="layer-fn">
-<text x="0" y="28" class="label" id="fn">fn:</text>
+<g transform="translate(30, 1190)" class="layer-Function">
+<text x="0" y="28" class="label" id="Function">Function</text>
 <g transform="translate(0, 56)">
 <g transform="translate(30, 75)" class="key trans keypos-0">
 <rect rx="0" ry="0" x="-28" y="-28" width="56" height="56" class="key trans side"/>
