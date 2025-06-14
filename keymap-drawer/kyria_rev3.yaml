@@ -14,16 +14,16 @@ layers:
   - P
   - \
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-caps$$'}
-  - {t: A, h: Alt}
-  - {t: S, h: Gui}
-  - {t: D, h: Shift}
-  - {t: F, h: Ctrl}
+  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
-  - {t: J, h: Ctrl}
-  - {t: K, h: Shift}
-  - {t: L, h: Gui}
-  - {t: ;, h: Alt, s: ':'}
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '''', s: '"'}
   - BRI DN
   - Z
@@ -42,9 +42,9 @@ layers:
   - {t: /, s: '?'}
   - BRI UP
   - {t: ▽, type: trans}
-  - Gui
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: Nav}
-  - {t: Shift, h: sticky}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - $$mdi:backspace-reverse-outline$$
   - Fn
   - {t: '$$mdi:backspace-outline$$', h: Num}
@@ -65,10 +65,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt
-  - Gui
-  - Shift
-  - Ctrl
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - '?'
   - '0'
   - '1'
@@ -116,10 +116,10 @@ layers:
   - Insert
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt
-  - Gui
-  - Shift
-  - Ctrl
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - {t: ▽, type: trans}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
@@ -173,10 +173,10 @@ layers:
   - F8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctrl
-  - Shift
-  - Gui
-  - Alt
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F9
