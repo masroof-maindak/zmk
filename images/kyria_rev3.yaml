@@ -13,19 +13,19 @@ layers:
   - O
   - P
   - \
-  - '&tab_capsW'
-  - {t: A, h: LEFT ALT}
-  - {t: S, h: LGUI}
-  - {t: D, h: LSHFT}
-  - {t: F, h: LCTRL}
+  - '&Tab_Caps'
+  - {t: A, h: Alt}
+  - {t: S, h: Gui}
+  - {t: D, h: Shift}
+  - {t: F, h: Ctrl}
   - G
   - H
-  - {t: J, h: RIGHT CONTROL}
-  - {t: K, h: RIGHT SHIFT}
-  - {t: L, h: RGUI}
-  - {t: ;, h: LEFT ALT}
+  - {t: J, h: Ctrl}
+  - {t: K, h: Shift}
+  - {t: L, h: Gui}
+  - {t: ;, h: Alt}
   - ''''
-  - BRIGHTNESS DEC
+  - BRI DN
   - Z
   - X
   - C
@@ -33,23 +33,23 @@ layers:
   - B
   - Ctl+C
   - Ctl+V
-  - VOLUME UP
-  - VOLUME DOWN
+  - VOL UP
+  - VOL DN
   - N
   - M
   - ','
   - .
   - /
-  - BRIGHTNESS INC
+  - BRI UP
   - {t: ▽, type: trans}
-  - LEFT META
-  - {t: SPACE, h: nav}
-  - {t: LEFT SHIFT, h: sticky}
-  - DEL
+  - Gui
+  - {t: ␣, h: nav}
+  - {t: Shift, h: sticky}
+  - ⌦
   - fn
-  - {t: BSPC, h: sym_num}
+  - {t: ⌫, h: sym_num}
   - '&key_repeat'
-  - Ctl+BSPC
+  - Ctl+⌫
   - {t: ▽, type: trans}
   sym_num:
   - '`'
@@ -65,10 +65,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ALT
-  - LGUI
-  - LSHFT
-  - LCTRL
+  - Alt
+  - Gui
+  - Shift
+  - Ctrl
   - '?'
   - '0'
   - '1'
@@ -94,7 +94,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - <
-  - SPACE
+  - ␣
   - '>'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -109,23 +109,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - HOME
-  - END
-  - PG UP
+  - Home
+  - End
+  - Page ↑
   - PAGE DOWN
-  - INS
+  - Insert
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ALT
-  - LEFT GUI
-  - LSHFT
-  - LCTRL
+  - Alt
+  - Gui
+  - Shift
+  - Ctrl
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
+  - ←
+  - ↓
   - UP ARROW
-  - RIGHT
-  - DEL
+  - →
+  - ⌦
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,10 +173,10 @@ layers:
   - F8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RIGHT CONTROL
-  - LSHFT
-  - LEFT GUI
-  - LEFT ALT
+  - Ctrl
+  - Shift
+  - Gui
+  - Alt
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F9
@@ -206,11 +206,13 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [20, 19]
-  k: ESCAPE
+  k: Esc
   l: [core]
 - p: [19, 21]
-  k: ENTER
+  k: ⏎
   l: [core]
+  a: top
+  o: 0.25
 - p: [20, 21]
   k: )
   l: [core]
@@ -239,7 +241,7 @@ combos:
   k: '-'
   l: [core]
 - p: [15, 16]
-  k: BSPC
+  k: ⌫
   l: [sym_num]
 - p: [20, 19]
   k: '-'
