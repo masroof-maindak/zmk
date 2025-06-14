@@ -395,15 +395,15 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(611, 241) rotate(-30.0)" class="key keypos-46">
 <rect rx="4" ry="4" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap"><tspan style="font-size: 64%">&amp;key_repeat</tspan></text>
-</g>
-<g transform="translate(667, 218) rotate(-15.0)" class="key keypos-47">
-<rect rx="4" ry="4" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">BSPC</text>
 <a href="#sym_num">
 <text x="0" y="24" class="key hold layer-activator">sym_num</text>
 </a></g>
+<g transform="translate(667, 218) rotate(-15.0)" class="key keypos-47">
+<rect rx="4" ry="4" x="-26" y="-26" width="52" height="52" class="key side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
+<text x="0" y="-4" class="key tap"><tspan style="font-size: 64%">&amp;key_repeat</tspan></text>
+</g>
 <g transform="translate(728, 210)" class="key keypos-48">
 <rect rx="4" ry="4" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
@@ -715,14 +715,14 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <text x="0" y="-4" class="key trans tap">▽</text>
 </g>
-<g transform="translate(611, 241) rotate(-30.0)" class="key trans keypos-46">
+<g transform="translate(611, 241) rotate(-30.0)" class="key held keypos-46">
+<rect rx="4" ry="4" x="-26" y="-26" width="52" height="52" class="key held side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
+</g>
+<g transform="translate(667, 218) rotate(-15.0)" class="key trans keypos-47">
 <rect rx="4" ry="4" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <text x="0" y="-4" class="key trans tap">▽</text>
-</g>
-<g transform="translate(667, 218) rotate(-15.0)" class="key held keypos-47">
-<rect rx="4" ry="4" x="-26" y="-26" width="52" height="52" class="key held side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
 <g transform="translate(728, 210)" class="key trans keypos-48">
 <rect rx="4" ry="4" x="-26" y="-26" width="52" height="52" class="key trans side"/>

@@ -47,8 +47,8 @@ layers:
   - {t: LEFT SHIFT, h: sticky}
   - DEL
   - fn
-  - '&key_repeat'
   - {t: BSPC, h: sym_num}
+  - '&key_repeat'
   - Ctl+BSPC
   - {t: ▽, type: trans}
   sym_num:
@@ -98,8 +98,8 @@ layers:
   - '>'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   nav:
