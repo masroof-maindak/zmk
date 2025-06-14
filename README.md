@@ -1,3 +1,3 @@
 # zmk
 
-![keymap](images/kyria_rev3.svg)
+![keymap](keymap-drawer/kyria_rev3.svg)
