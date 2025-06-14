@@ -14,16 +14,16 @@ layers:
   - P
   - \
   - '&Tab_Caps'
-  - {t: A, h: Alt}
-  - {t: S, h: Gui}
-  - {t: D, h: Shift}
-  - {t: F, h: Ctrl}
+  - {t: A, h: LALT}
+  - {t: S, h: LGUI}
+  - {t: D, h: LSHFT}
+  - {t: F, h: LCTRL}
   - G
   - H
-  - {t: J, h: Ctrl}
-  - {t: K, h: Shift}
-  - {t: L, h: Gui}
-  - {t: ;, h: Alt}
+  - {t: J, h: RCTRL}
+  - {t: K, h: RSHFT}
+  - {t: L, h: RGUI}
+  - {t: ;, h: LALT}
   - ''''
   - BRI DN
   - Z
@@ -42,14 +42,14 @@ layers:
   - /
   - BRI UP
   - {t: ▽, type: trans}
-  - Gui
-  - {t: ␣, h: nav}
-  - {t: Shift, h: sticky}
-  - ⌦
+  - LGUI
+  - {t: SPACE, h: nav}
+  - {t: LSHFT, h: sticky}
+  - DEL
   - fn
-  - {t: ⌫, h: sym_num}
+  - {t: BSPC, h: sym_num}
   - '&key_repeat'
-  - Ctl+⌫
+  - Ctl+BSPC
   - {t: ▽, type: trans}
   sym_num:
   - '`'
@@ -65,10 +65,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt
-  - Gui
-  - Shift
-  - Ctrl
+  - LALT
+  - LGUI
+  - LSHFT
+  - LCTRL
   - '?'
   - '0'
   - '1'
@@ -94,7 +94,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - <
-  - ␣
+  - SPACE
   - '>'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -109,23 +109,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Home
-  - End
-  - Page ↑
-  - PAGE DOWN
-  - Insert
+  - HOME
+  - END
+  - PG UP
+  - PG DN
+  - INS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt
-  - Gui
-  - Shift
-  - Ctrl
+  - LALT
+  - LGUI
+  - LSHFT
+  - LCTRL
   - {t: ▽, type: trans}
-  - ←
-  - ↓
-  - ↑
-  - →
-  - ⌦
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -138,7 +138,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PREV
-  - PLAY PAUSE
+  - PP
   - NEXT
   - MUTE
   - {t: ▽, type: trans}
@@ -173,10 +173,10 @@ layers:
   - F8
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Ctrl
-  - Shift
-  - Gui
-  - Alt
+  - RCTRL
+  - LSHFT
+  - LGUI
+  - LALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F9
@@ -206,10 +206,10 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [20, 19]
-  k: Esc
+  k: ESC
   l: [core]
 - p: [19, 21]
-  k: ⏎
+  k: RET
   l: [core]
   a: top
   o: 0.25
@@ -241,7 +241,7 @@ combos:
   k: '-'
   l: [core]
 - p: [15, 16]
-  k: ⌫
+  k: BSPC
   l: [sym_num]
 - p: [20, 19]
   k: '-'
