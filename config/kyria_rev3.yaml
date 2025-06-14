@@ -44,13 +44,30 @@ draw_config:
     text.label {
       font-size: 32px;
     }
+
+    text.combo {
+      font-size: 18px;
+    }
+
+    text.shifted,
+    text.hold {
+      font-size: 16px;
+    }
+    
+    text.layer-indicator {
+      font-size: 14px;
+    }
+    
+    path.combo {
+      stroke-width: 2px;
+    }
     '
   footer_text: Generated using <a href="https://github.com/caksoylar/keymap-drawer">caksoylar/keymap-drawer.</a>
   shrink_wide_legends: 7
   style_layer_activators: true
-  glyph_tap_size: 14
-  glyph_hold_size: 12
-  glyph_shifted_size: 10
+  glyph_tap_size: 20
+  glyph_hold_size: 16
+  glyph_shifted_size: 16
   glyphs: {}
 
 parse_config:
