@@ -134,41 +134,7 @@ parse_config:
     QUES: '?'
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
-    # Stolen from `caksoylar/zmk-config`
-    LCTRL: Ctrl
-    RCTRL: Ctrl
-    LALT: Alt
-    RALT: Alt
-    LGUI: Gui
-    RGUI: Gui
-    LSHFT: Shift
-    RSHFT: Shift
-    ESC: Esc
-    SPACE: ␣
-    BSPC: ⌫
-    RET: ⏎
-    TAB: ↹
-    DEL: ⌦
-
-    PG_UP: Page ↑
-    PG_DN: Page ↓
-    INS: Insert
-    HOME: Home
-    END: End
-    CAPS: Caps Lock
-    PSCRN: Print Scrn
-    PAUSE_BREAK: Pause Break
-
-    UP: ↑
-    DOWN: ↓
-    LEFT: ←
-    RIGHT: →
-
-    C_PP: ⏯
-    C_NEXT: ⏭️
-    C_PREV: ⏮️
-
-    # Default
+    # TODO: symbols
     EXCLAMATION: '!'
     EXCL: '!'
     AT_SIGN: '@'
