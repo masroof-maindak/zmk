@@ -32,7 +32,7 @@ draw_config:
     .trans,
     .ghost,
     .none {
-      opacity: 0.4;
+      opacity: 0.8;
     }'
   footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
   shrink_wide_legends: 7
