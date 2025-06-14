@@ -141,6 +141,8 @@ parse_config:
     "&Tab_Caps":
       tap: $$mdi:keyboard-tab$$
       hold: $$mdi:apple-keyboard-shift$$
+    "&key_repeat":
+      tap: $$mdi:repeat-once&&
   zmk_keycode_map:
     # caksoylar/zmk-config + minusfive/knucklehead
     # Sound/Media
