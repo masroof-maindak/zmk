@@ -206,7 +206,9 @@ text.trans { fill: #7e8184; }
 path.combo { stroke: #7f7f7f; }
 
 }
- .trans, .ghost, .none { opacity: 0.9; }</style>
+ svg.keymap { font-family: system-ui, sans-serif; font-size: 20px; font-weight: 600; }
+.trans, .ghost, .none { opacity: 0.9; }
+text.label { font-size: 32px; } </style>
 <g transform="translate(30, 0)" class="layer-Core">
 <text x="0" y="28" class="label" id="Core">Core</text>
 <g transform="translate(0, 56)">
