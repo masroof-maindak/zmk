@@ -1,9 +1,9 @@
 draw_config:
-  key_w: 60
-  key_h: 60
+  key_w: 80
+  key_h: 80
   split_gap: 0.0
-  combo_w: 28
-  combo_h: 20
+  combo_w: 30
+  combo_h: 30
   key_rx: 4.0
   key_ry: 4.0
   dark_mode: auto
@@ -32,9 +32,9 @@ draw_config:
     .trans,
     .ghost,
     .none {
-      opacity: 0.8;
+      opacity: 0.9;
     }'
-  footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
+  footer_text: Generated using <a href="https://github.com/caksoylar/keymap-drawer">caksoylar/keymap-drawer</a>
   shrink_wide_legends: 7
   style_layer_activators: true
   glyph_tap_size: 14
@@ -140,11 +140,12 @@ parse_config:
   raw_binding_map:
     "&Tab_Caps":
       tap: $$mdi:keyboard-tab$$
-      hold: $$mdi:apple-keyboard-shift$$
+      hold: $$mdi:apple-keyboard-caps$$ # technically double tap
     "&key_repeat":
-      tap: $$mdi:repeat-once&&
+      tap: $$mdi:repeat$$
   zmk_keycode_map:
-    # caksoylar/zmk-config + minusfive/knucklehead
+    # Partially inspired by caksoylar/zmk-config + minusfive/knucklehead
+
     # Sound/Media
     C_MUTE: $$mdi:volume-off$$
     K_MUTE: $$mdi:volume-off$$
@@ -168,15 +169,21 @@ parse_config:
     RGUI: Gui
     LSHFT: Shift
     RSHFT: Shift
-    ESC: Esc
+    ESC: $$mdi:keyboard-esc$$
     SPACE: $$mdi:keyboard-space$$
 
-    LC(BSPC): # erase word
-      type: backspace
-      tap: $$mdi:backspace-outline$$
-    BSPC: # normal backspace
+    LC(BACKSPACE): # erase word
       type: backspace
       tap: $$mdi:backspace$$
+    BACKSPACE: # normal backspace
+      type: backspace
+      tap: $$mdi:backspace-outline$$
+    LC(BSPC): # erase word
+      type: backspace
+      tap: $$mdi:backspace$$
+    BSPC: # normal backspace
+      type: backspace
+      tap: $$mdi:backspace-outline$$
 
     TAB: $$mdi:keyboard-tab$$
     
@@ -292,6 +299,6 @@ parse_config:
   zmk_combos:
     combo_ret:
       align: top
-      offset: 0.25
+      offset: 0.24
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
