@@ -29,11 +29,22 @@ draw_config:
     rx: 4.0
     ry: 4.0
   svg_extra_style: '
+    svg.keymap {
+      font-family: system-ui, sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
     .trans,
     .ghost,
     .none {
       opacity: 0.9;
-    }'
+    }
+
+    text.label {
+      font-size: 32px;
+    }
+    '
   footer_text: Generated using <a href="https://github.com/caksoylar/keymap-drawer">caksoylar/keymap-drawer.</a>
   shrink_wide_legends: 7
   style_layer_activators: true
