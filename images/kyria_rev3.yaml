@@ -13,203 +13,203 @@ layers:
   - O
   - P
   - \
-  - '&Tab_Caps'
-  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: LGUI}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: A, h: Alt}
+  - {t: S, h: Gui}
+  - {t: D, h: Shift}
+  - {t: F, h: Ctrl}
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: RGUI}
-  - {t: ;, h: '$$mdi:apple-keyboard-option$$'}
-  - ''''
-  - $$mdi:brightness-7$$
+  - {t: J, h: Ctrl}
+  - {t: K, h: Shift}
+  - {t: L, h: Gui}
+  - {t: ;, h: Alt, s: ':'}
+  - {t: '''', s: '"'}
+  - BRI DN
   - Z
   - X
   - C
   - V
   - B
-  - Ctl+C
-  - Ctl+V
+  - $$mdi:content-copy$$
+  - $$mdi:content-paste$$
   - $$mdi:volume-high$$
   - $$mdi:volume-low$$
   - N
   - M
-  - ','
-  - .
-  - /
-  - $$mdi:brightness-5$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - LGUI
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - BRI UP
+  - {t: ▽, type: trans}
+  - Gui
   - {t: '$$mdi:keyboard-space$$', h: Navigation}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {t: Shift, h: sticky}
   - $$mdi:backspace-reverse-outline$$
   - Function
-  - {t: '$$mdi:backspace$$', h: Symbols_and_Numbers}
+  - {t: '$$mdi:backspace$$', h: Sym_Num}
   - '&key_repeat'
-  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  Symbols_and_Numbers:
+  - {t: '$$mdi:backspace-outline$$', type: backspace}
+  - {t: ▽, type: trans}
+  Sym_Num:
   - '`'
   - '@'
   - '#'
   - $
   - '%'
   - ^
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-option$$
-  - LGUI
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt
+  - Gui
+  - Shift
+  - Ctrl
   - '?'
   - '0'
   - '1'
   - '2'
   - '3'
   - _
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '*'
   - '&'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ., s: '>'}
   - '7'
   - '8'
   - '9'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - <
   - $$mdi:keyboard-space$$
   - '>'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Navigation:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
-  - END
-  - $$mdi:transfer-up$$
-  - $$mdi:transfer-down$$
-  - INS
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-option$$
-  - LGUI
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Home
+  - End
+  - $$mdi:pan-up$$
+  - $$mdi:pan-down$$
+  - Insert
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt
+  - Gui
+  - Shift
+  - Ctrl
+  - {t: ▽, type: trans}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-right$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - PREV
-  - PP
-  - NEXT
-  - MUTE
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:skip-previous$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
+  - $$mdi:volume-off$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Function:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
   - F4
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F5
   - F6
   - F7
   - F8
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
-  - LGUI
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctrl
+  - Shift
+  - Gui
+  - Alt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F9
   - F10
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [20, 19]
-  k: $$mdi:keyboard-esc$$
+  k: Esc
   l: [Core]
 - p: [19, 21]
-  k: RET
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Core]
   a: top
   o: 0.25
@@ -236,16 +236,16 @@ combos:
   l: [Core]
 - p: [7, 8]
   k: '='
-  l: [Core, Symbols_and_Numbers]
+  l: [Core, Sym_Num]
 - p: [15, 16]
   k: '-'
   l: [Core]
 - p: [15, 16]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [Symbols_and_Numbers]
+  l: [Sym_Num]
 - p: [20, 19]
   k: '-'
-  l: [Symbols_and_Numbers]
+  l: [Sym_Num]
 - p: [4, 3]
   k: _
   l: [Core]
