@@ -57,6 +57,11 @@ draw_config:
     text.layer-indicator {
       font-size: 14px;
     }
+
+    text.footer {
+      font-size: 14px;
+      text-weight: 400;
+    }
     
     path.combo {
       stroke-width: 2px;
