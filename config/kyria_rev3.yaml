@@ -1,55 +1,36 @@
 draw_config:
-  key_w: 60.0
-  key_h: 56.0
-  split_gap: 30.0
-
-  combo_w: 28.0
-  combo_h: 26.0
-
-  key_rx: 4.0
-  key_ry: 4.0
-
+  key_w: 60
+  key_h: 60
+  split_gap: 0.0
+  combo_w: 28
+  combo_h: 20
+  key_rx: 0.0
+  key_ry: 0.0
   dark_mode: auto
-
   n_columns: 1
-
   separate_combo_diagrams: false
-
-  combo_diagrams_scale: 2
-
+  combo_diagrams_scale: 1
   inner_pad_w: 2.0
   inner_pad_h: 2.0
-
   outer_pad_w: 30.0
   outer_pad_h: 56.0
-
-  line_spacing: 1
-
+  line_spacing: 1.2
   arc_radius: 6.0
-
-  append_colon_to_layer_header: false
-
+  append_colon_to_layer_header: true
   small_pad: 2.0
-
   legend_rel_x: 0.0
   legend_rel_y: 0.0
-
   draw_key_sides: true
-
   key_side_pars:
-    rel_x: 0
-    rel_y: 4
-    rel_w: 12
-    rel_h: 12
-    rx: 4
-    ry: 4
-
+    rel_x: 0.0
+    rel_y: 4.0
+    rel_w: 12.0
+    rel_h: 16.0
+    rx: 4.0
+    ry: 4.0
   svg_extra_style: ''
-
   footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
-
   shrink_wide_legends: 7
-
   style_layer_activators: true
   glyph_tap_size: 14
   glyph_hold_size: 12
@@ -59,7 +40,7 @@ draw_config:
 parse_config:
   preprocess: true
   skip_binding_parsing: false
-  raw_binding_map: {}
+  raw_binding_map: {} # TODO: key_repeat?
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
@@ -153,6 +134,41 @@ parse_config:
     QUES: '?'
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
+    # Stolen from `caksoylar/zmk-config`
+    LCTRL: Ctrl
+    RCTRL: Ctrl
+    LALT: Alt
+    RALT: Alt
+    LGUI: Gui
+    RGUI: Gui
+    LSHFT: Shift
+    RSHFT: Shift
+    ESC: Esc
+    SPACE: ␣
+    BSPC: ⌫
+    RET: ⏎
+    TAB: ↹
+    DEL: ⌦
+
+    PG_UP: Page ↑
+    PG_DN: Page ↓
+    INS: Insert
+    HOME: Home
+    END: End
+    CAPS: Caps Lock
+    PSCRN: Print Scrn
+    PAUSE_BREAK: Pause Break
+
+    UP: ↑
+    DOWN: ↓
+    LEFT: ←
+    RIGHT: →
+
+    C_PP: ⏯
+    C_NEXT: ⏭️
+    C_PREV: ⏮️
+
+    # Default
     EXCLAMATION: '!'
     EXCL: '!'
     AT_SIGN: '@'
@@ -217,7 +233,9 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     TILDE2: '~'
-  zmk_combos: {}
+  zmk_combos:
+    combo_ret:
+      align: top
+      offset: 0.25
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
-
