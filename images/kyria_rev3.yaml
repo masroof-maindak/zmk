@@ -48,7 +48,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - Function
   - {t: '$$mdi:backspace$$', h: Sym_Num}
-  - '&key_repeat'
+  - $$mdi:repeat-once&&
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - {t: ▽, type: trans}
   Sym_Num:
