@@ -141,6 +141,13 @@
             key-positions = <35 36>;
             layers = <0>;
         };
+
+        combo_cut {
+            timeout-ms = <COMBO_TIMEOUT>;
+            bindings = <&kp LC(X)>;
+            key-positions = <31 44>;
+            layers = <0>;
+        };
     };
 
     behaviors {
@@ -207,10 +214,10 @@
 
         Nav {
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans                                  &kp HOME    &kp END   &kp PG_UP   &kp PG_DN   &kp INS  &trans
-&trans  &kp LALT  &kp LGUI  &kp LSHFT  &kp LCTRL  &trans                                  &kp LEFT    &kp DOWN  &kp UP      &kp RIGHT   &kp DEL  &trans
-&trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans  &trans  &kp K_PREV  &kp K_PP  &kp K_NEXT  &kp K_MUTE  &trans   &trans
-                            &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans
+&trans  &trans    &trans     &trans     &trans     &trans                                  &kp HOME    &kp END   &kp PG_UP   &kp PG_DN   &kp INS  &trans
+&trans  &kp LALT  &kp LGUI   &kp LSHFT  &kp LCTRL  &trans                                  &kp LEFT    &kp DOWN  &kp UP      &kp RIGHT   &kp DEL  &trans
+&trans  &trans    &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &trans  &trans  &kp K_PREV  &kp K_PP  &kp K_NEXT  &kp K_MUTE  &trans   &trans
+                             &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans      &trans    &trans
             >;
         };
 
