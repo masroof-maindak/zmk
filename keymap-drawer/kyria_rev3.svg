@@ -39,6 +39,9 @@
 <svg id="mdi:content-copy">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-content-copy" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z" /></svg>
 </svg>
+<svg id="mdi:content-cut">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-content-cut" viewBox="0 0 24 24"><path d="M19,3L13,9L15,11L22,4V3M12,12.5A0.5,0.5 0 0,1 11.5,12A0.5,0.5 0 0,1 12,11.5A0.5,0.5 0 0,1 12.5,12A0.5,0.5 0 0,1 12,12.5M6,20A2,2 0 0,1 4,18C4,16.89 4.9,16 6,16A2,2 0 0,1 8,18C8,19.11 7.1,20 6,20M6,8A2,2 0 0,1 4,6C4,4.89 4.9,4 6,4A2,2 0 0,1 8,6C8,7.11 7.1,8 6,8M9.64,7.64C9.87,7.14 10,6.59 10,6A4,4 0 0,0 6,2A4,4 0 0,0 2,6A4,4 0 0,0 6,10C6.59,10 7.14,9.87 7.64,9.64L10,12L7.64,14.36C7.14,14.13 6.59,14 6,14A4,4 0 0,0 2,18A4,4 0 0,0 6,22A4,4 0 0,0 10,18C10,17.41 9.87,16.86 9.64,16.36L12,14L19,21H22V20L9.64,7.64Z" /></svg>
+</svg>
 <svg id="mdi:content-paste">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-content-paste" viewBox="0 0 24 24"><path d="M19,20H5V4H7V7H17V4H19M12,2A1,1 0 0,1 13,3A1,1 0 0,1 12,4A1,1 0 0,1 11,3A1,1 0 0,1 12,2M19,2H14.82C14.4,0.84 13.3,0 12,0C10.7,0 9.6,0.84 9.18,2H5A2,2 0 0,0 3,4V20A2,2 0 0,0 5,22H19A2,2 0 0,0 21,20V4A2,2 0 0,0 19,2Z" /></svg>
 </svg>
@@ -515,6 +518,10 @@ path.combo { stroke-width: 2px; } </style>
 <rect rx="4" ry="4" x="1025" y="195" width="30" height="30" class="combo"/>
 <text x="1040" y="210" class="combo tap">:</text>
 </g>
+<g class="combo combopos-15">
+<rect rx="4" ry="4" x="569" y="355" width="30" height="30" class="combo"/>
+<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="574" y="360" height="20" width="20.0" class="combo tap glyph mdi:content-cut"/>
+</g>
 </g>
 </g>
 <g transform="translate(30, 510)" class="layer-Num">
@@ -841,17 +848,17 @@ path.combo { stroke-width: 2px; } </style>
 <rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(200, 220)" class="key trans keypos-26">
-<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(200, 220)" class="key keypos-26">
+<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key"/>
+<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi:content-cut"/>
 </g>
-<g transform="translate(280, 200)" class="key trans keypos-27">
-<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(280, 200)" class="key keypos-27">
+<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key"/>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi:content-copy"/>
 </g>
-<g transform="translate(360, 220)" class="key trans keypos-28">
-<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(360, 220)" class="key keypos-28">
+<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key"/>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-10" y="-10" height="20" width="20.0" class="key tap glyph mdi:content-paste"/>
 </g>
 <g transform="translate(440, 230)" class="key trans keypos-29">
 <rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key trans"/>

@@ -129,9 +129,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:content-cut$$
+  - $$mdi:content-copy$$
+  - $$mdi:content-paste$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -257,4 +257,7 @@ combos:
   l: [Core]
 - p: [35, 36]
   k: ':'
+  l: [Core]
+- p: [31, 44]
+  k: $$mdi:content-cut$$
   l: [Core]
