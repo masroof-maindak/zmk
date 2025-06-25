@@ -208,7 +208,7 @@ combos:
 - p: [20, 19]
   k: $$mdi:keyboard-esc$$
   l: [Core]
-- p: [19, 21]
+- p: [19, 20, 21]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Core]
   a: top
