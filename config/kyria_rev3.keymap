@@ -33,7 +33,7 @@
         combo_ret {
             timeout-ms = <COMBO_TIMEOUT>;
             bindings = <&kp RET>;
-            key-positions = <19 21>;
+            key-positions = <19 20 21>;
             layers = <0>;
         };
 
