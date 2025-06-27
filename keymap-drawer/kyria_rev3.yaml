@@ -41,7 +41,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - BRI UP
-  - {t: ▽, type: trans}
+  - ''
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: Nav}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:backspace-outline$$', h: Num}
   - $$mdi:repeat$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: ▽, type: trans}
+  - ''
   Num:
   - '`'
   - '@'
@@ -58,13 +58,13 @@ layers:
   - $
   - '%'
   - ^
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - '4'
   - '5'
   - '6'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
@@ -75,135 +75,135 @@ layers:
   - '2'
   - '3'
   - _
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - '*'
   - '&'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: ., s: '>'}
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - <
   - $$mdi:keyboard-space$$
   - '>'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   Nav:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - Home
   - End
   - $$mdi:pan-up$$
   - $$mdi:pan-down$$
   - Insert
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - $$mdi:content-cut$$
   - $$mdi:content-copy$$
   - $$mdi:content-paste$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - $$mdi:skip-previous$$
   - $$mdi:play-pause$$
-  - $$mdi:skip-next$$
   - $$mdi:volume-off$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $$mdi:skip-next$$
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   Fn:
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - F1
   - F2
   - F3
   - F4
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - F5
   - F6
   - F7
   - F8
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - F9
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
 combos:
 - p: [20, 19]
   k: $$mdi:keyboard-esc$$
@@ -211,8 +211,7 @@ combos:
 - p: [19, 20, 21]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Core]
-  a: top
-  o: 0.24
+  draw_separate: true
 - p: [20, 21]
   k: )
   l: [Core]
@@ -261,3 +260,4 @@ combos:
 - p: [31, 44]
   k: $$mdi:content-cut$$
   l: [Core]
+  r: 45.0
