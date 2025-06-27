@@ -35,12 +35,6 @@ draw_config:
       font-weight: 600;
     }
 
-    .trans,
-    .ghost,
-    .none {
-      opacity: 0.9;
-    }
-
     text.label {
       font-size: 32px;
     }
@@ -53,7 +47,7 @@ draw_config:
     text.hold {
       font-size: 16px;
     }
-    
+
     text.layer-indicator {
       font-size: 14px;
     }
@@ -62,12 +56,38 @@ draw_config:
       font-size: 14px;
       text-weight: 400;
     }
-    
+
+    .trans,
+    .ghost,
+    .none {
+      opacity: 0.9;
+    }
+
     path.combo {
       stroke-width: 2px;
     }
+
+    rect.combo, rect.combo-separate {
+      fill: #d7a7ac;
+    }
+
+    rect.held, rect.combo.held {
+      fill: #ffd35c;
+    }
+
+    .mdi\:circle-off-outline {
+      opacity: 0.32
+    }
     '
-  footer_text: Generated using <a href="https://github.com/caksoylar/keymap-drawer">caksoylar/keymap-drawer.</a>
+  svg_style_dark: '
+    rect.combo, rect.combo-separate {
+      fill: #c1666b;
+    }
+
+    rect.held, rect.combo.held {
+      fill: #91506c;
+    }
+  '
   shrink_wide_legends: 7
   style_layer_activators: true
   glyph_tap_size: 20
@@ -82,7 +102,7 @@ parse_config:
   toggle_label: toggle
   tap_toggle_label: tap-toggle
   trans_legend:
-    tap: ▽
+    tap: $$mdi:circle-off-outline$$
     type: trans
   layer_legend_map: {}
   mark_alternate_layer_activators: false
@@ -227,7 +247,7 @@ parse_config:
       tap: $$mdi:backspace-outline$$
 
     TAB: $$mdi:keyboard-tab$$
-    
+
     RET:
       type: enter
       tap: $$mdi:keyboard-return$$
@@ -250,7 +270,7 @@ parse_config:
     DOWN: $$mdi:arrow-down$$
     LEFT: $$mdi:arrow-left$$
     RIGHT: $$mdi:arrow-right$$
-    
+
     PG_UP: $$mdi:pan-up$$
     PG_DN: $$mdi:pan-down$$
 
@@ -339,7 +359,8 @@ parse_config:
     TILDE2: '~'
   zmk_combos:
     combo_ret:
-      align: top
-      offset: 0.24
+      draw_separate: true
+    combo_cut:
+      rotation: 45
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
