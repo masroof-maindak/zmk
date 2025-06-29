@@ -214,8 +214,15 @@ path.combo {
 /* End Tabler Icons Cleanup */
 
 @media (prefers-color-scheme: dark) {
- rect.combo, rect.combo-separate { fill: #c1666b; }
-rect.held, rect.combo.held { fill: #91506c; } 
+svg.keymap { fill: #d1d6db; }
+rect.key { fill: #3f4750; }
+rect.key, rect.combo { stroke: #60666c; }
+rect.combo, rect.combo-separate { fill: #1f3d7a; }
+rect.held, rect.combo.held { fill: #854747; }
+text.label, text.footer { stroke: black; }
+text.trans { fill: #7e8184; }
+path.combo { stroke: #7f7f7f; }
+
 }
  svg.keymap { font-family: system-ui, sans-serif; font-size: 20px; font-weight: 600; }
 text.label { font-size: 32px; }
@@ -227,7 +234,9 @@ text.footer { font-size: 14px; text-weight: 400; }
 path.combo { stroke-width: 2px; }
 rect.combo, rect.combo-separate { fill: #d7a7ac; }
 rect.held, rect.combo.held { fill: #ffd35c; }
-.mdi\:circle-off-outline { opacity: 0.32 } </style>
+.mdi\:circle-off-outline { opacity: 0.32 }
+@media (prefers-color-scheme: dark) { rect.combo, rect.combo-separate { fill: #772953; }
+rect.held, rect.combo.held { fill: #91506c; } } </style>
 <g transform="translate(30, 0)" class="layer-Core">
 <text x="0" y="28" class="label" id="Core">Core</text>
 <g transform="translate(0, 56)">
