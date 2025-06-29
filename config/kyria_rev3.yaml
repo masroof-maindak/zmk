@@ -78,14 +78,15 @@ draw_config:
     .mdi\:circle-off-outline {
       opacity: 0.32
     }
-    '
-  svg_style_dark: '
-    rect.combo, rect.combo-separate {
-      fill: #c1666b;
-    }
 
-    rect.held, rect.combo.held {
-      fill: #91506c;
+    @media (prefers-color-scheme: dark) {
+      rect.combo, rect.combo-separate {
+        fill: #772953;
+      }
+
+      rect.held, rect.combo.held {
+        fill: #91506c;
+      }
     }
   '
   shrink_wide_legends: 7
