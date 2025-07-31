@@ -7,7 +7,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-#define COMBO_TIMEOUT 24
+#define MAIN_COMBO_TIMEOUT 24
+#define TIGHT_MAIN_COMBO_TIMEOUT 18
 
 /* Uncomment this block if using RGB
 &led_strip {
@@ -24,126 +25,126 @@
         compatible = "zmk,combos";
 
         dijkstra_esc {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp ESC>;
             key-positions = <20 19>;
             layers = <0>;
         };
 
         combo_ret {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp RET>;
             key-positions = <19 20 21>;
             layers = <0>;
         };
 
         combo_rparen {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <20 21>;
             layers = <0>;
         };
 
         combo_lparen {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <15 14>;
             layers = <0>;
         };
 
         combo_lbrack {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <27 26>;
             layers = <0>;
         };
 
         combo_rbrack {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <37 36>;
             layers = <0>;
         };
 
         combo_lbrace {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp LEFT_BRACE>;
             key-positions = <2 3>;
             layers = <0>;
         };
 
         combo_rbrace {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <TIGHT_MAIN_COMBO_TIMEOUT>;
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <8 9>;
             layers = <0>;
         };
 
         combo_exclaim {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp EXCL>;
             key-positions = <9 10>;
             layers = <0>;
         };
 
         combo_equals_ {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp EQUAL>;
             key-positions = <7 8>;
             layers = <0 1>;
         };
 
         combo_dash {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp MINUS>;
             key-positions = <15 16>;
             layers = <0>;
         };
 
         combo_symbolic_backspace {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp BSPC>;
             key-positions = <15 16>;
             layers = <1>;
         };
 
         combo_symbolic_dash {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp MINUS>;
             key-positions = <20 19>;
             layers = <1>;
         };
 
         combo_underscore {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp UNDERSCORE>;
             key-positions = <4 3>;
             layers = <0>;
         };
 
         combo_at_the_rate {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp AT>;
             key-positions = <1 2>;
             layers = <0>;
         };
 
         combo_asterisk {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp ASTERISK>;
             key-positions = <28 27>;
             layers = <0>;
         };
 
         combo_colon {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp COLON>;
             key-positions = <35 36>;
             layers = <0>;
         };
 
         combo_cut {
-            timeout-ms = <COMBO_TIMEOUT>;
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp LC(X)>;
             key-positions = <31 44>;
             layers = <0>;
