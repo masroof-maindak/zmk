@@ -151,8 +151,10 @@
         };
 
         combo_caps_word {
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&caps_word>;
             key-positions = <32 45>;
+            layers = <0>;
         };
     };
 
