@@ -192,9 +192,8 @@ parse_config:
     QUES: '?'
   zmk_remove_keycode_prefix: []
   raw_binding_map:
-    "&Tab_Caps":
-      tap: $$mdi:keyboard-tab$$
-      hold: $$mdi:apple-keyboard-caps$$ # technically double tap
+    "&caps_word":
+      tap: $$mdi:apple-keyboard-caps$$ # technically double tap
     "&key_repeat":
       tap: $$mdi:repeat$$
   zmk_keycode_map:
@@ -363,5 +362,7 @@ parse_config:
       draw_separate: true
     combo_cut:
       rotation: 45
+    combo_caps_word:
+      rotation: -45
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
