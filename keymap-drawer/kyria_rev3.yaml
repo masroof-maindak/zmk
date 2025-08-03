@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - \
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-caps$$'}
+  - $$mdi:keyboard-tab$$
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
@@ -261,3 +261,6 @@ combos:
   k: $$mdi:content-cut$$
   l: [Core]
   r: 45.0
+- p: [32, 45]
+  k: $$mdi:apple-keyboard-caps$$
+  r: -45.0
