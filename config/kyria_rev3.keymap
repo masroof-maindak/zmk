@@ -201,7 +201,9 @@
                                         &none         &kp LGUI      &lt 2 SPACE  &sk LSHFT  &kp DEL    &mo 3         &lt 1 BSPC    &key_repeat  &kp LC(BSPC)  &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_BRI_UP C_BRI_DN>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         Num {
