@@ -202,8 +202,8 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_BRI_UP C_BRI_DN>,
-                <&inc_dec_kp PG_UP PG_DN>;
+                <&inc_dec_kp LS(LEFT) LS(RIGHT)>,
+                <&inc_dec_kp LC(RIGHT) LC(LEFT)>;
         };
 
         Num {
@@ -231,8 +231,6 @@
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans    &trans    &trans
                          &trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
