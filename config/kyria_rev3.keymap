@@ -202,7 +202,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp LS(LEFT) LS(RIGHT)>,
+                <&inc_dec_kp LS(RIGHT) LS(LEFT)>,
                 <&inc_dec_kp LC(RIGHT) LC(LEFT)>;
         };
 
