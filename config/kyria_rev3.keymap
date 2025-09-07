@@ -215,8 +215,8 @@
         Num {
             bindings = <
 &kp GRAVE  &kp AT    &kp HASH  &kp DOLLAR    &kp PERCENT    &kp CARET                                               &trans   &kp N1  &kp N2  &kp N3  &trans     &trans
-&trans     &kp LALT  &kp LGUI  &kp LSHFT     &kp LCTRL      &kp QUESTION                                            &kp DOT  &kp N4  &kp N5  &kp N6  &kp UNDER  &trans
-&trans     &trans    &trans    &kp ASTERISK  &kp AMPERSAND  &trans        &trans            &trans  &trans  &trans  &kp N0   &kp N7  &kp N8  &kp N9  &trans     &trans
+&trans     &kp LALT  &kp LGUI  &kp LSHFT     &kp LCTRL      &kp QUESTION                                            &kp N0   &kp N4  &kp N5  &kp N6  &kp UNDER  &trans
+&trans     &trans    &trans    &kp ASTERISK  &kp AMPERSAND  &trans        &trans            &trans  &trans  &trans  &kp DOT  &kp N7  &kp N8  &kp N9  &trans     &trans
                                &trans        &kp LESS_THAN  &kp SPACE     &kp GREATER_THAN  &trans  &trans  &trans  &trans   &trans  &trans
             >;
         };
@@ -240,4 +240,3 @@
         };
     };
 };
-
