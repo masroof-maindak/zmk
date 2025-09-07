@@ -265,3 +265,9 @@ combos:
   k: $$mdi:apple-keyboard-caps$$
   l: [Core]
   r: -45.0
+- p: [3, 15]
+  k: $
+  l: [Core]
+- p: [7, 8]
+  k: $$mdi:keyboard-space$$
+  l: [Num]
