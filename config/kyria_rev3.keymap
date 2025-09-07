@@ -156,6 +156,13 @@
             key-positions = <32 45>;
             layers = <0>;
         };
+
+        combo_dollar {
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
+            bindings = <&kp DOLLAR>;
+            key-positions = <3 15>;
+            layers = <0>;
+        };
     };
 
     behaviors {
