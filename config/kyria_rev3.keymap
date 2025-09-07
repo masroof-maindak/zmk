@@ -93,9 +93,9 @@
             layers = <0>;
         };
 
-        combo_symbolic_backspace {
+        combo_symbolic_spc {
             timeout-ms = <MAIN_COMBO_TIMEOUT>;
-            bindings = <&kp BSPC>;
+            bindings = <&kp SPACE>;
             key-positions = <15 16>;
             layers = <1>;
         };
@@ -154,13 +154,6 @@
             bindings = <&kp DOLLAR>;
             key-positions = <3 15>;
             layers = <0>;
-        };
-
-        combo_symbolic_spc {
-            timeout-ms = <MAIN_COMBO_TIMEOUT>;
-            bindings = <&kp SPACE>;
-            key-positions = <7 8>;
-            layers = <1>;
         };
     };
 
