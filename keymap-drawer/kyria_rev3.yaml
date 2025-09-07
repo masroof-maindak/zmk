@@ -240,7 +240,7 @@ combos:
   k: '-'
   l: [Core]
 - p: [15, 16]
-  k: {t: '$$mdi:backspace-outline$$', type: backspace}
+  k: $$mdi:keyboard-space$$
   l: [Num]
 - p: [20, 19]
   k: '-'
@@ -268,6 +268,3 @@ combos:
 - p: [3, 15]
   k: $
   l: [Core]
-- p: [7, 8]
-  k: $$mdi:keyboard-space$$
-  l: [Num]

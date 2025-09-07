@@ -742,17 +742,13 @@ rect.held, rect.combo.held { fill: #91506c; } } </style>
 <rect rx="4" ry="4" x="1025" y="35" width="30" height="30" class="combo"/>
 <text x="1040" y="50" class="combo tap">=</text>
 </g>
-<g class="combo backspace combopos-1">
-<rect rx="4" ry="4" x="305" y="115" width="30" height="30" class="combo backspace"/>
-<use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="310" y="120" height="20" width="20.0" class="combo backspace tap glyph mdi:backspace-outline"/>
+<g class="combo combopos-1">
+<rect rx="4" ry="4" x="305" y="115" width="30" height="30" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="310" y="120" height="20" width="20.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 <g class="combo combopos-2">
 <rect rx="4" ry="4" x="1025" y="115" width="30" height="30" class="combo"/>
 <text x="1040" y="130" class="combo tap">-</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="4" ry="4" x="1025" y="35" width="30" height="30" class="combo"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="1030" y="40" height="20" width="20.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
