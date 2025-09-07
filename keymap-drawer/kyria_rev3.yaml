@@ -70,7 +70,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - '?'
-  - {t: ., s: '>'}
+  - '0'
   - '4'
   - '5'
   - '6'
@@ -86,7 +86,7 @@ layers:
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: '$$mdi:circle-off-outline$$', type: trans}
-  - '0'
+  - {t: ., s: '>'}
   - '7'
   - '8'
   - '9'
