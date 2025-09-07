@@ -45,9 +45,9 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: Nav}
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Num}
   - Fn
-  - {t: '$$mdi:backspace-outline$$', h: Num}
+  - {t: '$$mdi:backspace-outline$$', type: backspace}
   - $$mdi:repeat$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - ''
@@ -96,9 +96,9 @@ layers:
   - <
   - $$mdi:keyboard-space$$
   - '>'
-  - {t: '$$mdi:circle-off-outline$$', type: trans}
-  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: '$$mdi:circle-off-outline$$', type: trans}
