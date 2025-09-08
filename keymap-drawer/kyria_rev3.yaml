@@ -210,7 +210,7 @@ combos:
   l: [Core]
 - p: [19, 20, 21]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-  l: [Core]
+  l: [Core, Num, Nav]
   draw_separate: true
 - p: [20, 21]
   k: )
