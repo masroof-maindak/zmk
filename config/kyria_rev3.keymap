@@ -27,7 +27,7 @@
             timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp RET>;
             key-positions = <19 20 21>;
-            layers = <0>;
+            layers = <0 1 2>;
         };
 
         combo_rparen {
