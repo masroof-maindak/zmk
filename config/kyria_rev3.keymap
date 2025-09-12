@@ -93,9 +93,9 @@
             layers = <0>;
         };
 
-        combo_symbolic_spc {
+        combo_symbolic_bspc {
             timeout-ms = <MAIN_COMBO_TIMEOUT>;
-            bindings = <&kp SPACE>;
+            bindings = <&kp BACKSPACE>;
             key-positions = <15 16>;
             layers = <1>;
         };
@@ -194,10 +194,10 @@
 
         Core {
             bindings = <
-&kp GRAVE     &kp Q        &kp W        &kp E         &kp R         &kp T                                                           &kp Y        &kp U         &kp I         &kp O        &kp P           &kp BSLH
-&kp TAB       &hml LALT A  &hml LGUI S  &hml LSHFT D  &hml LCTRL F  &kp G                                                           &kp H        &hmr RCTRL J  &hmr RSHFT K  &hmr RGUI L  &hmr LALT SEMI  &kp SQT
-&kp C_BRI_DN  &kp Z        &kp X        &kp C         &kp V         &kp B        &kp LC(C)  &kp LC(V)  &kp C_VOL_UP  &kp C_VOL_DN   &kp N        &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp C_BRI_UP
-                                        &none         &kp LGUI      &lt 2 SPACE  &sk LSHFT  &lt 1 DEL  &mo 3         &kp BACKSPACE  &key_repeat  &kp LC(BSPC)  &none
+&kp GRAVE     &kp Q        &kp W        &kp E         &kp R         &kp T                                                              &kp Y        &kp U         &kp I         &kp O        &kp P           &kp BSLH
+&kp TAB       &hml LALT A  &hml LGUI S  &hml LSHFT D  &hml LCTRL F  &kp G                                                              &kp H        &hmr RCTRL J  &hmr RSHFT K  &hmr RGUI L  &hmr LALT SEMI  &kp SQT
+&kp C_BRI_DN  &kp Z        &kp X        &kp C         &kp V         &kp B        &kp LC(C)  &kp LC(V)   &kp C_VOL_UP  &kp C_VOL_DN     &kp N        &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp C_BRI_UP
+                                        &none         &kp LGUI      &lt 2 SPACE  &sk LSHFT  &kp DELETE  &mo 3         &lt 1 BACKSPACE  &key_repeat  &kp LC(BSPC)  &none
             >;
 
             sensor-bindings =
@@ -233,3 +233,4 @@
         };
     };
 };
+
