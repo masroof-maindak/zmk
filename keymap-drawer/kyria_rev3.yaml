@@ -256,7 +256,7 @@ combos:
   l: [Core]
 - p: [35, 36]
   k: ':'
-  l: [Core]
+  l: [Core, Num]
 - p: [31, 44]
   k: $$mdi:content-cut$$
   l: [Core]

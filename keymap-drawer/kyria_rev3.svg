@@ -750,6 +750,10 @@ rect.held, rect.combo.held { fill: #91506c; } } </style>
 <rect rx="4" ry="4" x="1025" y="115" width="30" height="30" class="combo"/>
 <text x="1040" y="130" class="combo tap">-</text>
 </g>
+<g class="combo combopos-3">
+<rect rx="4" ry="4" x="1025" y="195" width="30" height="30" class="combo"/>
+<text x="1040" y="210" class="combo tap">:</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1021)" class="layer-Nav">
