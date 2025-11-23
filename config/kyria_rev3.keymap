@@ -132,7 +132,7 @@
             timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&kp COLON>;
             key-positions = <35 36>;
-            layers = <0>;
+            layers = <0 1>;
         };
 
         combo_cut {
