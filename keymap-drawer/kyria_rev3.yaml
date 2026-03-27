@@ -204,6 +204,57 @@ layers:
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: '$$mdi:circle-off-outline$$', type: trans}
+  Game:
+  - $$mdi:keyboard-esc$$
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - $$mdi:apple-keyboard-shift$$
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-control$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - $$mdi:content-copy$$
+  - $$mdi:content-paste$$
+  - $$mdi:volume-high$$
+  - $$mdi:volume-low$$
+  - N
+  - M
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - BRI UP
+  - ''
+  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:keyboard-space$$', h: Nav}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
+  - $$mdi:backspace-reverse-outline$$
+  - Fn
+  - {t: '$$mdi:backspace-outline$$', h: Num}
+  - $$mdi:repeat$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - ''
 combos:
 - p: [20, 19]
   k: $$mdi:keyboard-esc$$
@@ -268,3 +319,5 @@ combos:
 - p: [3, 15]
   k: $
   l: [Core]
+- p: [24, 39]
+  k: {t: Game, h: toggle}
