@@ -157,8 +157,10 @@
         };
 
         combo_go_to_game {
+            timeout-ms = <MAIN_COMBO_TIMEOUT>;
             bindings = <&tog 4>;
-            key-positions = <24 39>;
+            key-positions = <24 12 0>;
+            layers = <0>;
         };
     };
 
