@@ -360,6 +360,8 @@ parse_config:
   zmk_combos:
     combo_ret:
       draw_separate: true
+    combo_go_to_game:
+      draw_separate: true
     combo_cut:
       rotation: 45
     combo_caps_word:
