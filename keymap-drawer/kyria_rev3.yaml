@@ -162,10 +162,10 @@ layers:
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: '$$mdi:circle-off-outline$$', type: trans}
-  - {t: '$$mdi:circle-off-outline$$', type: trans}
-  - {t: '$$mdi:circle-off-outline$$', type: trans}
-  - {t: '$$mdi:circle-off-outline$$', type: trans}
-  - {t: '$$mdi:circle-off-outline$$', type: trans}
+  - BT NXT
+  - BT PRV
+  - BT CLR
+  - BT CLR ALL
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   - F5
   - F6

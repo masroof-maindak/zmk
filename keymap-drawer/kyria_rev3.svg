@@ -995,21 +995,29 @@ rect.held, rect.combo.held { fill: #91506c; } } </style>
 <rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key trans"/>
 <use href="#mdi:circle-off-outline" xlink:href="#mdi:circle-off-outline" x="-10" y="-10" height="20" width="20.0" class="key trans tap glyph mdi:circle-off-outline"/>
 </g>
-<g transform="translate(1080, 40)" class="key trans keypos-8">
-<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key trans"/>
-<use href="#mdi:circle-off-outline" xlink:href="#mdi:circle-off-outline" x="-10" y="-10" height="20" width="20.0" class="key trans tap glyph mdi:circle-off-outline"/>
+<g transform="translate(1080, 40)" class="key keypos-8">
+<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">NXT</tspan>
+</text>
 </g>
-<g transform="translate(1160, 60)" class="key trans keypos-9">
-<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key trans"/>
-<use href="#mdi:circle-off-outline" xlink:href="#mdi:circle-off-outline" x="-10" y="-10" height="20" width="20.0" class="key trans tap glyph mdi:circle-off-outline"/>
+<g transform="translate(1160, 60)" class="key keypos-9">
+<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">PRV</tspan>
+</text>
 </g>
-<g transform="translate(1240, 100)" class="key trans keypos-10">
-<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key trans"/>
-<use href="#mdi:circle-off-outline" xlink:href="#mdi:circle-off-outline" x="-10" y="-10" height="20" width="20.0" class="key trans tap glyph mdi:circle-off-outline"/>
+<g transform="translate(1240, 100)" class="key keypos-10">
+<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan>
+</text>
 </g>
-<g transform="translate(1320, 100)" class="key trans keypos-11">
-<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key trans"/>
-<use href="#mdi:circle-off-outline" xlink:href="#mdi:circle-off-outline" x="-10" y="-10" height="20" width="20.0" class="key trans tap glyph mdi:circle-off-outline"/>
+<g transform="translate(1320, 100)" class="key keypos-11">
+<rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">BT</tspan><tspan x="0" dy="1.2em">CLR</tspan><tspan x="0" dy="1.2em">ALL</tspan>
+</text>
 </g>
 <g transform="translate(40, 180)" class="key trans keypos-12">
 <rect rx="4" ry="4" x="-38" y="-38" width="76" height="76" class="key trans"/>
