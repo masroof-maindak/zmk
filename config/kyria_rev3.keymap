@@ -233,10 +233,10 @@
 
         Fn {
             bindings = <
-&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                                  &trans  &trans     &bt BT_NXT  &bt BT_PRV  &bt BT_CLR  &bt BT_CLR_ALL
-&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans                                  &trans  &kp RCTRL  &kp LSHFT   &kp LGUI    &kp LALT    &trans
-&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans      &trans      &trans      &trans
-                         &trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                                  &soft_off  &trans     &bt BT_NXT  &bt BT_PRV  &bt BT_CLR  &bt BT_CLR_ALL
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans                                  &trans     &kp RCTRL  &kp LSHFT   &kp LGUI    &kp LALT    &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans      &trans      &trans      &trans
+                         &trans   &trans   &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans
             >;
         };
 
