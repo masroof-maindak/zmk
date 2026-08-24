@@ -202,10 +202,10 @@
 
         Core {
             bindings = <
-&kp GRAVE     &kp Q        &kp W        &kp E         &kp R         &kp T                                                              &kp Y        &kp U         &kp I         &kp O        &kp P           &kp BSLH
-&kp TAB       &hml LALT A  &hml LGUI S  &hml LSHFT D  &hml LCTRL F  &kp G                                                              &kp H        &hmr RCTRL J  &hmr RSHFT K  &hmr RGUI L  &hmr LALT SEMI  &kp SQT
-&kp C_BRI_DN  &kp Z        &kp X        &kp C         &kp V         &kp B        &kp LC(C)  &kp LC(V)   &kp C_VOL_UP  &kp C_VOL_DN     &kp N        &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp C_BRI_UP
-                                        &none         &kp LGUI      &lt 2 SPACE  &sk LSHFT  &kp DELETE  &mo 3         &lt 1 BACKSPACE  &key_repeat  &kp LC(BSPC)  &none
+&kp GRAVE     &kp Q        &kp W        &kp E         &kp R         &kp T                                                          &kp Y       &kp U         &kp I         &kp O        &kp P           &kp BSLH
+&kp TAB       &hml LALT A  &hml LGUI S  &hml LSHFT D  &hml LCTRL F  &kp G                                                          &kp H       &hmr RCTRL J  &hmr RSHFT K  &hmr RGUI L  &hmr LALT SEMI  &kp SQT
+&kp C_BRI_DN  &kp Z        &kp X        &kp C         &kp V         &kp B        &kp LC(C)  &kp LC(V)  &kp C_VOL_UP  &kp C_VOL_DN  &kp N       &kp M         &kp COMMA     &kp DOT      &kp FSLH        &kp C_BRI_UP
+                                        &none         &kp LGUI      &lt 2 SPACE  &sk LSHFT  &kp DEL    &mo 3         &key_repeat   &lt 1 BSPC  &kp LC(BSPC)  &none
             >;
 
             sensor-bindings =
@@ -215,10 +215,10 @@
 
         Num {
             bindings = <
-&kp GRAVE  &kp AT    &kp HASH  &kp DOLLAR    &kp PERCENT    &kp CARET                                               &trans   &kp N1  &kp N2  &kp N3  &trans     &trans
-&trans     &kp LALT  &kp LGUI  &kp LSHFT     &kp LCTRL      &kp QUESTION                                            &kp N0   &kp N4  &kp N5  &kp N6  &kp UNDER  &trans
-&trans     &trans    &trans    &kp ASTERISK  &kp AMPERSAND  &trans        &trans            &trans  &trans  &trans  &kp DOT  &kp N7  &kp N8  &kp N9  &trans     &trans
-                               &trans        &kp LESS_THAN  &kp SPACE     &kp GREATER_THAN  &trans  &trans  &trans  &trans   &trans  &trans
+&kp GRAVE  &kp AT    &kp HASH  &kp DLLR   &kp PRCNT  &kp CARET                                  &trans   &kp N1  &kp N2  &kp N3  &trans     &trans
+&trans     &kp LALT  &kp LGUI  &kp LSHFT  &kp LCTRL  &kp QMARK                                  &kp N0   &kp N4  &kp N5  &kp N6  &kp UNDER  &trans
+&trans     &trans    &trans    &kp ASTRK  &kp AMPS   &trans     &trans  &trans  &trans  &trans  &kp DOT  &kp N7  &kp N8  &kp N9  &trans     &trans
+                               &trans     &kp LT     &kp SPACE  &kp GT  &trans  &trans  &trans  &trans   &trans  &trans
             >;
         };
 
@@ -242,10 +242,10 @@
 
         Game {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E  &kp R     &kp T                                                              &kp Y        &kp U         &kp I      &kp O    &kp P     &kp BSLH
-&kp LSHFT  &kp A  &kp S  &kp D  &kp F     &kp G                                                              &kp H        &kp J         &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C  &kp V     &kp B        &kp LC(C)  &kp LC(V)   &kp C_VOL_UP  &kp C_VOL_DN     &kp N        &kp M         &kp COMMA  &kp DOT  &kp FSLH  &kp C_BRI_UP
-                         &none  &kp LGUI  &lt 2 SPACE  &sk LSHFT  &kp DELETE  &mo 3         &lt 1 BACKSPACE  &key_repeat  &kp LC(BSPC)  &none
+&kp ESC    &kp Q  &kp W  &kp E  &kp R     &kp T                                                          &kp Y       &kp U         &kp I      &kp O    &kp P     &kp BSLH
+&kp LSHFT  &kp A  &kp S  &kp D  &kp F     &kp G                                                          &kp H       &kp J         &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL  &kp Z  &kp X  &kp C  &kp V     &kp B        &kp LC(C)  &kp LC(V)  &kp C_VOL_UP  &kp C_VOL_DN  &kp N       &kp M         &kp COMMA  &kp DOT  &kp FSLH  &kp C_BRI_UP
+                         &none  &kp LGUI  &lt 2 SPACE  &sk LSHFT  &kp DEL    &mo 3         &key_repeat   &lt 1 BSPC  &kp LC(BSPC)  &none
             >;
 
             sensor-bindings =
