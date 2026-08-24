@@ -160,7 +160,7 @@ layers:
   - F3
   - F4
   - {t: '$$mdi:circle-off-outline$$', type: trans}
-  - '&soft_off'
+  - $$mdi:power-sleep$$
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   - BT NXT
   - BT PRV
