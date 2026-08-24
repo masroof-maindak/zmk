@@ -196,6 +196,8 @@ parse_config:
       tap: $$mdi:apple-keyboard-caps$$ # technically double tap
     "&key_repeat":
       tap: $$mdi:repeat$$
+    "&soft_off":
+      tap: $$mdi:power-sleep$$
   zmk_keycode_map:
     # Partially inspired by caksoylar/zmk-config + minusfive/knucklehead
 
