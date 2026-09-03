@@ -47,8 +47,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - $$mdi:backspace-reverse-outline$$
   - Fn
-  - $$mdi:repeat$$
   - {t: '$$mdi:backspace-outline$$', h: Num}
+  - $$mdi:repeat$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - ''
   Num:
@@ -98,8 +98,8 @@ layers:
   - '>'
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: '$$mdi:circle-off-outline$$', type: trans}
-  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   - {t: '$$mdi:circle-off-outline$$', type: trans}
   Nav:
@@ -251,8 +251,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: sticky}
   - $$mdi:backspace-reverse-outline$$
   - Fn
-  - $$mdi:repeat$$
   - {t: '$$mdi:backspace-outline$$', h: Num}
+  - $$mdi:repeat$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - ''
 combos:
